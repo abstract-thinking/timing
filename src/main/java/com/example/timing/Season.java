@@ -24,8 +24,8 @@ public class Season implements Calculator {
 //    }
 
     @Override
-    public GiPartResult calculate(YearMonth yearMonth) {
-        return GiPartResult.builder()
+    public PartialIndicatorResult calculate(YearMonth yearMonth) {
+        return PartialIndicatorResult.builder()
                 .date(yearMonth)
                 .rate(0)
                 .comparativeDate(yearMonth)

@@ -3,6 +3,7 @@ package com.example.timing.data;
 
 import lombok.AccessLevel;
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Value;
 import org.springframework.data.annotation.Id;
@@ -10,8 +11,8 @@ import org.springframework.data.annotation.Id;
 import java.time.YearMonth;
 
 @Builder
-@Value
-public class GiResult {
+@Data
+public class IndicatorResult {
 
     @Id
     private String id;

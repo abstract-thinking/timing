@@ -7,7 +7,7 @@ import java.time.YearMonth;
 
 @Builder
 @Value
-public class GiPartResult {
+public class PartialIndicatorResult {
 
         YearMonth date;
         double rate;

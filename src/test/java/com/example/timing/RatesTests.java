@@ -18,7 +18,7 @@ public class RatesTests {
     public void shouldReturnAPointBecauseRateDecreased() {
         Rates exchangeRates = new Rates(generateRatesDesc());
 
-        GiPartResult result = exchangeRates.calculate(DATE);
+        PartialIndicatorResult result = exchangeRates.calculate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.0, 2.0, 1));
     }
@@ -27,7 +27,7 @@ public class RatesTests {
     public void shouldNotReturnAPointBecauseRateIncreased() {
         Rates exchangeRates = new Rates(generateRatesAsc());
 
-        GiPartResult result = exchangeRates.calculate(DATE);
+        PartialIndicatorResult result = exchangeRates.calculate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.0, 0.1, 0));
     }
@@ -36,13 +36,13 @@ public class RatesTests {
     public void shouldNotReturnAPointBecauseRatesAreEqual() {
         Rates exchangeRates = new Rates(generateRatesEqual());
 
-        GiPartResult result = exchangeRates.calculate(DATE);
+        PartialIndicatorResult result = exchangeRates.calculate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.11, 1.11, 0));
     }
 
-    private GiPartResult createGiResult(double rate, double comparativeRate, int point) {
-        return GiPartResult.builder()
+    private PartialIndicatorResult createGiResult(double rate, double comparativeRate, int point) {
+        return PartialIndicatorResult.builder()
                 .date(DATE)
                 .rate(rate)
                 .comparativeDate(DATE.minusYears(1))

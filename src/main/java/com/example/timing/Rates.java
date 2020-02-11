@@ -15,13 +15,13 @@ public final class Rates implements Calculator {
     }
 
     @Override
-    public GiPartResult calculate(YearMonth date) {
+    public PartialIndicatorResult calculate(YearMonth date) {
         YearMonth comparativeDate = date.minusYears(1);
 
         Double rate = rates.get(date);
         Double comparativeRate = rates.get(comparativeDate);
 
-        return GiPartResult.builder()
+        return PartialIndicatorResult.builder()
                 .date(date)
                 .rate(rate)
                 .comparativeDate(comparativeDate)

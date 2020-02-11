@@ -13,9 +13,9 @@ public class SeasonTests {
     public void shouldBeAFriendlyMonth() {
         Season season = new Season();
 
-        GiPartResult result = season.calculate(YearMonth.of(2020, Month.NOVEMBER));
+        PartialIndicatorResult result = season.calculate(YearMonth.of(2020, Month.NOVEMBER));
 
-        GiPartResult expectedResult = GiPartResult.builder()
+        PartialIndicatorResult expectedResult = PartialIndicatorResult.builder()
                 .date(YearMonth.of(2020, Month.NOVEMBER))
                 .rate(0.0)
                 .comparativeDate(YearMonth.of(2020, Month.NOVEMBER))
@@ -30,9 +30,9 @@ public class SeasonTests {
     public void shouldNotBeAFriendlyMonth() {
         Season season = new Season();
 
-        GiPartResult result = season.calculate(YearMonth.of(2020, Month.MAY));
+        PartialIndicatorResult result = season.calculate(YearMonth.of(2020, Month.MAY));
 
-        GiPartResult expectedResult = GiPartResult.builder()
+        PartialIndicatorResult expectedResult = PartialIndicatorResult.builder()
                 .date(YearMonth.of(2020, Month.MAY))
                 .rate(0.0)
                 .comparativeDate(YearMonth.of(2020, Month.MAY))

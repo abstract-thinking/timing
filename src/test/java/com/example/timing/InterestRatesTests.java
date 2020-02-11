@@ -15,7 +15,7 @@ public class InterestRatesTests {
     public void shouldReturnAPointBecauseRateDecreased() {
         InterestRates interestRates = new InterestRates(generateInterestRatesDesc());
 
-        GiPartResult result = interestRates.calculate(YearMonth.now());
+        PartialIndicatorResult result = interestRates.calculate(YearMonth.now());
 
         assertThat(result).isEqualTo(createGiResult(0.0, Month.SEPTEMBER, 1));
     }
@@ -24,13 +24,13 @@ public class InterestRatesTests {
     public void shouldNotReturnAPointBecauseRateIncreased() {
         InterestRates interestRates = new InterestRates(generateInterestRatesAsc());
 
-        GiPartResult result = interestRates.calculate(YearMonth.now());
+        PartialIndicatorResult result = interestRates.calculate(YearMonth.now());
 
         assertThat(result).isEqualTo(createGiResult(0.1, Month.MAY, 0));
     }
 
-    private GiPartResult createGiResult(double rate, Month month, int point) {
-        return GiPartResult.builder()
+    private PartialIndicatorResult createGiResult(double rate, Month month, int point) {
+        return PartialIndicatorResult.builder()
                 .date(YearMonth.of(2019, Month.SEPTEMBER))
                 .rate(rate)
                 .comparativeDate(YearMonth.of(2015, month))

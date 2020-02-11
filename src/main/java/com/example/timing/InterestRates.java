@@ -31,7 +31,7 @@ public class InterestRates implements Calculator {
     }
 
     @Override
-    public GiPartResult calculate(YearMonth date) {
+    public PartialIndicatorResult calculate(YearMonth date) {
         Map.Entry<LocalDate, Double> firstEntry = rates.firstEntry();
         Map.Entry<LocalDate, Double> comparativeEntry = firstEntry;
 
@@ -42,7 +42,7 @@ public class InterestRates implements Calculator {
             }
         }
 
-        return GiPartResult.builder()
+        return PartialIndicatorResult.builder()
                 .date(YearMonth.from(firstEntry.getKey()))
                 .rate(firstEntry.getValue())
                 .comparativeDate(YearMonth.from(comparativeEntry.getKey()))
