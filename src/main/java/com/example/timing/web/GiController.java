@@ -25,17 +25,19 @@ public class GiController {
 
     @GetMapping("/current")
     public String showGI(Model model) {
-        Season season = new Season(LocalDate.now().getMonth());
-        model.addAttribute("season", season);
+        YearMonth now = YearMonth.now();
+
+        Season season = new Season();
+        model.addAttribute("season", season.calculate(now));
 
         InterestRates interestRates = new InterestRates(ratesService.processInterestRates());
-        model.addAttribute("interest", interestRates);
+        model.addAttribute("interest", interestRates.calculate(now));
 
-        Rates inflationRates = new Rates(ratesService.processInflationRates(), YearMonth.now().minusMonths(2));
-        model.addAttribute("inflation", inflationRates);
+        Rates inflationRates = new Rates(ratesService.processInflationRates());
+        model.addAttribute("inflation", inflationRates.calculate(now.minusMonths(2)));
 
-        Rates exchangeRates = new Rates(ratesService.processExchangeRates(), YearMonth.now().minusMonths(1));
-        model.addAttribute("exchange", exchangeRates);
+        Rates exchangeRates = new Rates(ratesService.processExchangeRates());
+        model.addAttribute("exchange", exchangeRates.calculate(now.minusMonths(1)));
 
         return "gi";
     }

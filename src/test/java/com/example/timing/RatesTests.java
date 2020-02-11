@@ -15,35 +15,39 @@ public class RatesTests {
     private static final YearMonth DATE = YearMonth.of(2020, Month.JANUARY);
 
     @Test
-    public void shouldReturnRates() {
-        Rates exchangeRates = new Rates(generateRatesDesc(), DATE);
+    public void shouldReturnAPointBecauseLower() {
+        Rates exchangeRates = new Rates(generateRatesDesc());
 
-        assertThat(exchangeRates.getRate()).isEqualTo(1.0);
-        assertThat(exchangeRates.getComparativeRate()).isEqualTo(2.0);
-    }
+        GiPartResult result = exchangeRates.calculate(DATE);
 
-
-    @Test
-    public void shouldDecrease() {
-        Rates exchangeRates = new Rates(generateRatesDesc(), DATE);
-
-        assertThat(exchangeRates.isDecreased()).isTrue();
-        assertThat(exchangeRates.getPoint()).isEqualTo(1);
+        assertThat(result).isEqualTo(createGiResult(1.0, 2.0, 1));
     }
 
     @Test
-    public void shouldNotDecrease() {
-        Rates exchangeRates = new Rates(generateRatesAsc(), DATE);
+    public void shouldNotReturnAPointBecauseRatesAreHigher() {
+        Rates exchangeRates = new Rates(generateRatesAsc());
 
-        assertThat(exchangeRates.isDecreased()).isFalse();
-        assertThat(exchangeRates.getPoint()).isEqualTo(0);
+        GiPartResult result = exchangeRates.calculate(DATE);
+
+        assertThat(result).isEqualTo(createGiResult(1.0, 0.1, 0));
     }
 
     @Test
-    public void shouldNotDecreaseBecauseRatesAreEqual() {
-        Rates exchangeRates = new Rates(generateRatesEqual(), DATE);
+    public void shouldNotReturnAPointBecauseRatesAreEqual() {
+        Rates exchangeRates = new Rates(generateRatesEqual());
 
-        assertThat(exchangeRates.isDecreased()).isFalse();
-        assertThat(exchangeRates.getPoint()).isEqualTo(0);
+        GiPartResult result = exchangeRates.calculate(DATE);
+
+        assertThat(result).isEqualTo(createGiResult(1.11, 1.11, 0));
+    }
+
+    private GiPartResult createGiResult(double rate, double comparativeRate, int point) {
+        return GiPartResult.builder()
+                .date(DATE)
+                .rate(rate)
+                .comparativeDate(DATE.minusYears(1))
+                .comparativeRate(comparativeRate)
+                .point(point)
+                .build();
     }
 }

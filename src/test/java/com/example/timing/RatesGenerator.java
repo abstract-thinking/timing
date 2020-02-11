@@ -50,10 +50,8 @@ public class RatesGenerator {
         Map<LocalDate, Double> interestRates = new HashMap<>();
         interestRates.put(LocalDate.of(2019, 9, 18), 0.10);
         interestRates.put(LocalDate.of(2016, 3, 16), 0.10);
-        interestRates.put(LocalDate.of(2015, 9, 12), 0.05);
+        interestRates.put(LocalDate.of(2015, 5, 12), 0.05);
 
         return interestRates;
     }
-
-
 }

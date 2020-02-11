@@ -37,17 +37,39 @@ th, td {
     </tr>
     </thead>
     <tr align="center">
-        <td><th:block th:text="${season.asString()}"/></td>
-        <td><th:block th:text="${season.getPoint()}"/></td>
-        <td><th:block th:text="${interest.isDecreased()} ? 'Decrease' : 'Increase'"/></td>
-        <td><th:block th:text="${interest.getPoint()}"/></td>
-        <td><th:block th:text="${#numbers.formatDecimal(inflation.getRate(), 1, 1, 'COMMA')}"/></td>
-        <td><th:block th:text="${#numbers.formatDecimal(inflation.getComparativeRate(), 1, 1, 'COMMA')}"/></td>
-        <td><th:block th:text="${inflation.getPoint()}"/></td>
-        <td><th:block th:text="${#numbers.formatDecimal(exchange.getRate(), 1, 4, 'COMMA')}"/></td>
-        <td><th:block th:text="${#numbers.formatDecimal(exchange.getComparativeRate(), 1, 4, 'COMMA')}"/></td>
-        <td><th:block th:text="${exchange.getPoint()}"/></td>
-        <td><th:block th:text="${season.getPoint() + interest.getPoint() + inflation.getPoint() + exchange.getPoint()}"/></td>
+        <td>
+            <th:block th:text="${season.date}"/>
+        </td>
+        <td>
+            <th:block th:text="${season.point}"/>
+        </td>
+        <td>
+            <th:block th:text="${interest.point} ? 'Decrease' : 'Increase'"/>
+        </td>
+        <td>
+            <th:block th:text="${interest.point}"/>
+        </td>
+        <td>
+            <th:block th:text="${#numbers.formatDecimal(inflation.rate, 1, 1, 'COMMA')}"/>
+        </td>
+        <td>
+            <th:block th:text="${#numbers.formatDecimal(inflation.comparativeRate, 1, 1, 'COMMA')}"/>
+        </td>
+        <td>
+            <th:block th:text="${inflation.point}"/>
+        </td>
+        <td>
+            <th:block th:text="${#numbers.formatDecimal(exchange.rate, 1, 4, 'COMMA')}"/>
+        </td>
+        <td>
+            <th:block th:text="${#numbers.formatDecimal(exchange.comparativeRate, 1, 4, 'COMMA')}"/>
+        </td>
+        <td>
+            <th:block th:text="${exchange.point}"/>
+        </td>
+        <td>
+            <th:block th:text="${season.point + interest.point + inflation.point + exchange.point}"/>
+        </td>
     </tr>
 </table>
 </body>

@@ -1,11 +1,11 @@
 package com.example.timing;
 
-import java.time.LocalDate;
 import java.time.Month;
+import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Season implements Point {
+public class Season implements Calculator {
 
     private final static List<Month> FRIENDLY_MONTHS = new ArrayList<>(6);
 
@@ -18,23 +18,23 @@ public class Season implements Point {
         FRIENDLY_MONTHS.add(Month.APRIL);
     }
 
-    private final Month month;
-
-    public Season(Month month) {
-        this.month = month;
-    }
-
-    public String asString() {
-        String m = month.toString();
-        return m.substring(0, 1).toUpperCase() + m.substring(1).toLowerCase();
-    }
+//    public String asString() {
+//        String m = month.toString();
+//        return m.substring(0, 1).toUpperCase() + m.substring(1).toLowerCase();
+//    }
 
     @Override
-    public int getPoint() {
-        return isFriendly() ? 1 : 0;
+    public GiPartResult calculate(YearMonth yearMonth) {
+        return GiPartResult.builder()
+                .date(yearMonth)
+                .rate(0)
+                .comparativeDate(yearMonth)
+                .comparativeRate(0)
+                .point(isFriendly(yearMonth.getMonth()) ? 1 : 0)
+                .build();
     }
 
-    private boolean isFriendly() {
+    private boolean isFriendly(Month month) {
         return FRIENDLY_MONTHS.contains(month);
     }
 

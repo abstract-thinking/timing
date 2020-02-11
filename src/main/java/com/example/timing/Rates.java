@@ -1,48 +1,33 @@
 package com.example.timing;
 
-import lombok.Getter;
-
 import java.time.YearMonth;
 import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-public final class Rates implements Point {
+public final class Rates implements Calculator {
 
     private final Map<YearMonth, Double> rates;
 
-    @Getter
-    private final YearMonth date;
-
-    @Getter
-    private final YearMonth comparativeDate;
-
-    public Rates(Map<YearMonth, Double> rates, YearMonth date) {
+    public Rates(Map<YearMonth, Double> rates) {
         this.rates = new TreeMap<>(Comparator.reverseOrder());
         this.rates.putAll(rates);
-
-        this.date = date;
-        this.comparativeDate = date.minusYears(1);
-    }
-
-    public double getRate() {
-        return rates.get(date);
-    }
-
-    public double getComparativeRate() {
-        return rates.get(comparativeDate);
-    }
-
-    public boolean isDecreased() {
-        Double currentRate = rates.get(date);
-        Double comparativeRate = rates.get(comparativeDate);
-
-        return currentRate < comparativeRate;
     }
 
     @Override
-    public int getPoint() {
-        return isDecreased() ? 1 : 0;
+    public GiPartResult calculate(YearMonth date) {
+        YearMonth comparativeDate = date.minusYears(1);
+
+        Double rate = rates.get(date);
+        Double comparativeRate = rates.get(comparativeDate);
+
+        return GiPartResult.builder()
+                .date(date)
+                .rate(rate)
+                .comparativeDate(comparativeDate)
+                .comparativeRate(comparativeRate)
+                .point(rate < comparativeRate ? 1 : 0)
+                .build();
     }
 
 }

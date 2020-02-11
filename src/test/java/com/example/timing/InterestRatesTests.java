@@ -2,6 +2,9 @@ package com.example.timing;
 
 import org.junit.jupiter.api.Test;
 
+import java.time.Month;
+import java.time.YearMonth;
+
 import static com.example.timing.RatesGenerator.generateInterestRatesAsc;
 import static com.example.timing.RatesGenerator.generateInterestRatesDesc;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -9,19 +12,30 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class InterestRatesTests {
 
     @Test
-    public void shouldDecrease() {
+    public void shouldReturnPointBecauseRateDecreased() {
         InterestRates interestRates = new InterestRates(generateInterestRatesDesc());
 
-        assertThat(interestRates.isDecreased()).isTrue();
-        assertThat(interestRates.getPoint()).isEqualTo(1);
+        GiPartResult result = interestRates.calculate(YearMonth.now());
+
+        assertThat(result).isEqualTo(createGiResult(0.0, Month.SEPTEMBER, 1));
     }
 
     @Test
-    public void shouldNotDecrease() {
+    public void shouldNotPointBecauseRateIncreased() {
         InterestRates interestRates = new InterestRates(generateInterestRatesAsc());
 
-        assertThat(interestRates.isDecreased()).isFalse();
-        assertThat(interestRates.getPoint()).isEqualTo(0);
+        GiPartResult result = interestRates.calculate(YearMonth.now());
+
+        assertThat(result).isEqualTo(createGiResult(0.1, Month.MAY, 0));
     }
 
+    private GiPartResult createGiResult(double rate, Month month, int point) {
+        return GiPartResult.builder()
+                .date(YearMonth.of(2019, Month.SEPTEMBER))
+                .rate(rate)
+                .comparativeDate(YearMonth.of(2015, month))
+                .comparativeRate(0.05)
+                .point(point)
+                .build();
+    }
 }
