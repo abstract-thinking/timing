@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class SeasonTests {
 
     @Test
-    public void shouldBeFriendlyMonth() {
+    public void shouldBeAFriendlyMonth() {
         Season season = new Season();
 
         GiPartResult result = season.calculate(YearMonth.of(2020, Month.NOVEMBER));

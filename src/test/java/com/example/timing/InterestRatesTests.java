@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class InterestRatesTests {
 
     @Test
-    public void shouldReturnPointBecauseRateDecreased() {
+    public void shouldReturnAPointBecauseRateDecreased() {
         InterestRates interestRates = new InterestRates(generateInterestRatesDesc());
 
         GiPartResult result = interestRates.calculate(YearMonth.now());
@@ -21,7 +21,7 @@ public class InterestRatesTests {
     }
 
     @Test
-    public void shouldNotPointBecauseRateIncreased() {
+    public void shouldNotReturnAPointBecauseRateIncreased() {
         InterestRates interestRates = new InterestRates(generateInterestRatesAsc());
 
         GiPartResult result = interestRates.calculate(YearMonth.now());

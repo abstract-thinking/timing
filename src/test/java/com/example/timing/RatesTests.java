@@ -15,7 +15,7 @@ public class RatesTests {
     private static final YearMonth DATE = YearMonth.of(2020, Month.JANUARY);
 
     @Test
-    public void shouldReturnAPointBecauseLower() {
+    public void shouldReturnAPointBecauseRateDecreased() {
         Rates exchangeRates = new Rates(generateRatesDesc());
 
         GiPartResult result = exchangeRates.calculate(DATE);
@@ -24,7 +24,7 @@ public class RatesTests {
     }
 
     @Test
-    public void shouldNotReturnAPointBecauseRatesAreHigher() {
+    public void shouldNotReturnAPointBecauseRateIncreased() {
         Rates exchangeRates = new Rates(generateRatesAsc());
 
         GiPartResult result = exchangeRates.calculate(DATE);
