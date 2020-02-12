@@ -35,7 +35,7 @@ public class GiSchedulerTaskTests {
     // TODO: Should I mock the date?
     // Missing: repository.findBySumOfPointsIsNot(2).get(0).shouldInvest()
     @Test
-    public void testMe() {
+    public void shouldSaveIndicator() {
         LocalDate now = LocalDate.now();
 
         Map<YearMonth, Double> rates = new HashMap<>();
