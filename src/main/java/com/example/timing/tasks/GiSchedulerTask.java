@@ -29,7 +29,7 @@ public class GiSchedulerTask {
     }
 
     @Scheduled(cron = "0 0 0 1 1/1 *")
-    public void processGi() {
+    public IndicatorResult processGi() {
         final YearMonth now = YearMonth.now();
 
         InterestRates interestRates = new InterestRates(ratesService.processInterestRates());
@@ -43,13 +43,8 @@ public class GiSchedulerTask {
         Rates inflationRates = new Rates(ratesService.processInflationRates());
         PartialIndicatorResult inflationResult = inflationRates.calculate(now.minusMonths(2));
 
-        int sumOfPointThisMonth = seasonResult.getPoint() +
+        final int sumOfPointsThisMonth = seasonResult.getPoint() +
                 inflationResult.getPoint() + interestResult.getPoint() + exchangeResult.getPoint();
-
-        Boolean shouldInvest = shouldInvest(sumOfPointThisMonth);
-        if (shouldInvest == null) {
-            shouldInvest = repository.findBySumOfPointsIsNot(2).get(0).shouldInvest();
-        }
 
         IndicatorResult result = IndicatorResult.builder()
                 .date(now)
@@ -62,21 +57,20 @@ public class GiSchedulerTask {
                 .inflationRate(inflationResult.getRate())
                 .inflationRateOneYearAgo(inflationResult.getComparativeRate())
                 .inflationPoint(inflationResult.getPoint())
-                .sumOfPoints(sumOfPointThisMonth)
-                .shouldInvest(shouldInvest)
+                .sumOfPoints(sumOfPointsThisMonth)
+                .shouldInvest(decideInvestment(sumOfPointsThisMonth))
                 .build();
 
-        IndicatorResult savedResult = repository.save(result);
-
+        return repository.save(result);
     }
 
-    private Boolean shouldInvest(int currentPoints) {
-        if (currentPoints > 2) {
-            return Boolean.TRUE;
-        } else if (currentPoints < 2) {
-            return Boolean.FALSE;
+    private boolean decideInvestment(int sumOfPoints) {
+        if (sumOfPoints > 2) {
+            return true;
+        } else if (sumOfPoints < 2) {
+            return false;
         } else { // currentPoints == 2
-            return null;
+            return repository.findBySumOfPointsIsNot(2).get(0).shouldInvest();
         }
     }
 }

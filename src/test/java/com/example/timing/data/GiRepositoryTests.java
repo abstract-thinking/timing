@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class GiRepositoryTests {
 
     @Autowired
-    GiRepository repository;
+    private GiRepository repository;
 
     @BeforeEach
     public void setUp() {
