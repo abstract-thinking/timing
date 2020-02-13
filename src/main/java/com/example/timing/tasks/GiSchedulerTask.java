@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
 import java.time.YearMonth;
 
 @Slf4j
@@ -29,19 +30,19 @@ public class GiSchedulerTask {
     }
 
     @Scheduled(cron = "0 0 0 1 1/1 *")
-    public IndicatorResult processGi() {
-        final YearMonth now = YearMonth.now();
+    public void processGi() {
+        final LocalDate now = LocalDate.now();
 
         InterestRates interestRates = new InterestRates(ratesService.processInterestRates());
-        PartialIndicatorResult interestResult = interestRates.calculate(now);
+        PartialIndicatorResult interestResult = interestRates.calculate(YearMonth.from(now));
 
-        PartialIndicatorResult seasonResult = new Season().calculate(now);
+        PartialIndicatorResult seasonResult = new Season().calculate(YearMonth.from(now));
 
         Rates exchangeRates = new Rates(ratesService.processExchangeRates());
-        PartialIndicatorResult exchangeResult = exchangeRates.calculate(now.minusMonths(1));
+        PartialIndicatorResult exchangeResult = exchangeRates.calculate(YearMonth.from(now).minusMonths(1));
 
         Rates inflationRates = new Rates(ratesService.processInflationRates());
-        PartialIndicatorResult inflationResult = inflationRates.calculate(now.minusMonths(2));
+        PartialIndicatorResult inflationResult = inflationRates.calculate(YearMonth.from(now).minusMonths(2));
 
         final int sumOfPointsThisMonth = seasonResult.getPoint() +
                 inflationResult.getPoint() + interestResult.getPoint() + exchangeResult.getPoint();
@@ -61,7 +62,7 @@ public class GiSchedulerTask {
                 .shouldInvest(decideInvestment(sumOfPointsThisMonth))
                 .build();
 
-        return repository.save(result);
+        repository.save(result);
     }
 
     private boolean decideInvestment(int sumOfPoints) {

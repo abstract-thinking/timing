@@ -4,7 +4,6 @@ import com.example.timing.data.GiRepository;
 import com.example.timing.data.IndicatorResult;
 import com.example.timing.web.RatesService;
 import org.junit.jupiter.api.Test;
-import org.mockito.stubbing.Answer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -15,7 +14,6 @@ import java.time.YearMonth;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -53,17 +51,9 @@ public class GiSchedulerTaskTests {
         when(ratesService.processExchangeRates()).thenReturn(rates);
         when(ratesService.processInflationRates()).thenReturn(rates);
         when(ratesService.processInterestRates()).thenReturn(interestRates);
-        when(repository.save(any(IndicatorResult.class))).thenAnswer((Answer<IndicatorResult>) invocation -> {
-            Object[] args = invocation.getArguments();
-            IndicatorResult result = (IndicatorResult) args[0];
-            result.setId("abcdefgh");
-            return result;
-        });
 
-        IndicatorResult result = task.processGi();
+        task.processGi();
 
         verify(repository).save(any(IndicatorResult.class));
-
-        assertThat(result.getId()).isEqualTo("abcdefgh");
     }
 }
