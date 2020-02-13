@@ -1,9 +1,9 @@
 package com.example.timing.data;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;
 
-public interface GiRepository extends CrudRepository<IndicatorResult, String> {
+public interface GiRepository extends MongoRepository<IndicatorResult, String> {
     List<IndicatorResult> findBySumOfPointsIsNot(int sumOfPoints);
 }
