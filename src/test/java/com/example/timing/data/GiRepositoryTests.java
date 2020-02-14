@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.time.LocalDate;
+import java.time.YearMonth;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -31,20 +31,26 @@ public class GiRepositoryTests {
     @Test
     public void shouldFindBySumOfPointsIsNot() {
         IndicatorResult result1 = IndicatorResult.builder()
-                .date(LocalDate.now())
+                .date(YearMonth.now().atDay(1))
                 .sumOfPoints(2)
                 .build();
 
         IndicatorResult result2 = IndicatorResult.builder()
-                .date(LocalDate.now().minusMonths(1))
+                .date(YearMonth.now().atDay(1).minusMonths(1))
                 .sumOfPoints(3)
+                .build();
+
+        IndicatorResult result3 = IndicatorResult.builder()
+                .date(YearMonth.now().atDay(1).minusMonths(2))
+                .sumOfPoints(1)
                 .build();
 
         repository.save(result1);
         repository.save(result2);
+        repository.save(result3);
 
-        List<IndicatorResult> results = repository.findBySumOfPointsIsNot(2);
+        List<IndicatorResult> results = repository.findBySumOfPointsIsNotOrderByDateDesc(2);
 
-        assertThat(results).containsExactly(result2);
+        assertThat(results).containsExactly(result2, result3);
     }
 }

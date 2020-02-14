@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<style>
+    th, td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>GI</title>
@@ -8,22 +16,32 @@
 <table border="1" align="center" cellpadding="1">
     <thead>
     <tr align="center">
-        <td>Date</td>
-        <td>Season Point</td>
-        <td>Interest Rate</td>
-        <td>Interest Point</td>
-        <td>Inflation Rate</td>
-        <td>Inflation Rate OneYearAgo</td>
-        <td>Inflation Point</td>
-        <td>Exchange Rate</td>
-        <td>Exchange Rate OneYearAgo</td>
-        <td>Exchange Point</td>
-        <td>Sum of Points</td>
-        <td>Invest</td>
+        <th colspan="2">Season</th>
+        <th colspan="2">Interest</th>
+        <th colspan="3">Inflation</th>
+        <th colspan="3">Exchange</th>
+        <th colspan="2"></th>
+    </tr>
+
+    <tr align="center">
+        <th>Current month</th>
+        <th>Point</th>
+        <th>Last decision</th>
+        <th>Point</th>
+        <th>One month ago</th>
+        <th>13 months ago</th>
+        <th>Point</th>
+        <th>Two months ago</th>
+        <th>14 months ago</th>
+        <th>Point</th>
+        <th>Sum of points</th>
     </tr>
     </thead>
+
     <tbody>
-    <tr align="center" th:each="result: ${results}">
+    <tr align="center"
+        th:each="result: ${results}"
+        th:style="${result.shouldInvest() ? 'background-color: GreenYellow' : 'background-color: Tomato'}">
         <td th:text="${result.date}"></td>
         <td th:text="${result.seasonPoint}"></td>
         <td th:text="${result.interestRate}"></td>
@@ -35,7 +53,6 @@
         <td th:text="${result.exchangeRageOneYearAgo}"></td>
         <td th:text="${result.exchangePoint}"></td>
         <td th:text="${result.sumOfPoints}"></td>
-        <td th:text="${result.shouldInvest()}"></td>
     </tr>
     </tbody>
 </table>

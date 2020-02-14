@@ -48,9 +48,9 @@ public class GiSchedulerTaskTests {
         interestRates.put(LocalDate.of(2020, Month.DECEMBER, 10), 1.0);
         interestRates.put(LocalDate.of(2015, Month.MARCH, 10), 0.1);
 
-        when(ratesService.processExchangeRates()).thenReturn(rates);
-        when(ratesService.processInflationRates()).thenReturn(rates);
-        when(ratesService.processInterestRates()).thenReturn(interestRates);
+        when(ratesService.fetchExchangeRates()).thenReturn(rates);
+        when(ratesService.fetchInflationRates()).thenReturn(rates);
+        when(ratesService.fetchInterestRates()).thenReturn(interestRates);
 
         task.processGi();
 

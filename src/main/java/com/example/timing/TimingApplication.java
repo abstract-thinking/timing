@@ -2,19 +2,14 @@ package com.example.timing;
 
 import com.example.timing.data.GiRepository;
 import com.example.timing.data.IndicatorResult;
+import com.example.timing.web.RatesService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.io.ClassPathResource;
 
-import java.io.IOException;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Scanner;
-
-import static java.nio.charset.StandardCharsets.UTF_8;
-import static org.springframework.util.StreamUtils.copyToString;
+import java.time.Month;
+import java.time.YearMonth;
 
 @SpringBootApplication
 public class TimingApplication {
@@ -24,38 +19,55 @@ public class TimingApplication {
 	}
 
 	@Bean
-	public CommandLineRunner dataLoader(GiRepository repository) {
+	public CommandLineRunner dataLoader(RatesService ratesService, GiRepository repository) {
 		return args -> {
-			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+			Season season = new Season();
+			InterestRates interestRates = new InterestRates(ratesService.readInterestRates());
+			Rates inflationRates = new Rates(ratesService.readInflationRates());
+			Rates exchangeRates = new Rates(ratesService.readExchangeRates());
 
-			Scanner scanner = new Scanner(readHistoryFromFile());
-			scanner.useDelimiter(",");
-			while (scanner.hasNext()) {
-				String lineOfText = scanner.nextLine();
-				String[] split = lineOfText.split(",");
+			YearMonth date = YearMonth.of(2000, Month.JANUARY);
+			while (date.isBefore(YearMonth.now())) {
+				YearMonth nextMonth = date.plusMonths(1);
+
+				PartialIndicatorResult interestResult = interestRates.calculate(nextMonth);
+				PartialIndicatorResult seasonResult = season.calculate(nextMonth);
+				PartialIndicatorResult exchangeResult = exchangeRates.calculate(date);
+				PartialIndicatorResult inflationResult = inflationRates.calculate(date.minusMonths(1));
+
+				final int sumOfPointsThisMonth = seasonResult.getPoint() +
+						inflationResult.getPoint() + interestResult.getPoint() + exchangeResult.getPoint();
+
 				IndicatorResult result = IndicatorResult.builder()
-						.date(LocalDate.parse(split[0], formatter))
-						.seasonPoint(Integer.parseInt(split[1]))
-						.interestRate(Double.parseDouble(split[2]))
-						.interestPoint(Integer.parseInt(split[3]))
-						.inflationRate(Double.parseDouble(split[4]))
-						.inflationRateOneYearAgo(Double.parseDouble(split[5]))
-						.inflationPoint(Integer.parseInt(split[6]))
-						.exchangeRate(Double.parseDouble(split[7]))
-						.exchangeRageOneYearAgo(Double.parseDouble(split[8]))
-						.exchangePoint(Integer.parseInt(split[9]))
-						.sumOfPoints(Integer.parseInt(split[10]))
-						.shouldInvest(Boolean.parseBoolean(split[11]))
+						.date(nextMonth.atDay(1))
+						.seasonPoint(seasonResult.getPoint())
+						.interestRate(interestResult.getRate())
+						.interestPoint(interestResult.getPoint())
+						.exchangeRate(exchangeResult.getRate())
+						.exchangeRageOneYearAgo(exchangeResult.getComparativeRate())
+						.exchangePoint(exchangeResult.getPoint())
+						.inflationRate(inflationResult.getRate())
+						.inflationRateOneYearAgo(inflationResult.getComparativeRate())
+						.inflationPoint(inflationResult.getPoint())
+						.sumOfPoints(sumOfPointsThisMonth)
+						.shouldInvest(decideInvestment(sumOfPointsThisMonth, repository))
 						.build();
 
 				repository.save(result);
-			}
 
-			scanner.close();
+				date = date.plusMonths(1);
+			}
 		};
 	}
 
-	private String readHistoryFromFile() throws IOException {
-		return copyToString(new ClassPathResource("gi-history.csv").getInputStream(), UTF_8);
+	private boolean decideInvestment(int sumOfPoints, GiRepository repository) {
+		if (sumOfPoints > 2) {
+			return true;
+		} else if (sumOfPoints < 2) {
+			return false;
+		} else { // currentPoints == 2
+			return repository.findBySumOfPointsIsNotOrderByDateDesc(2).get(0).shouldInvest();
+		}
 	}
+
 }

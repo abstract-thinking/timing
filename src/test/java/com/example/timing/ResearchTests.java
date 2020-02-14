@@ -30,6 +30,7 @@ public class ResearchTests {
         while (scanner.hasNext()) {
             String lineOfText = scanner.nextLine();
             String[] split = lineOfText.split(",");
+
             IndicatorResult result = IndicatorResult.builder()
                     .date(LocalDate.parse(split[0], formatter))
                     .seasonPoint(Integer.parseInt(split[1]))

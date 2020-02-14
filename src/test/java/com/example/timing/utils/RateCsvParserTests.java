@@ -19,7 +19,7 @@ public class RateCsvParserTests {
     public void shouldParseInterest() throws IOException {
         String content = readFile("interest.csv");
 
-        Map<LocalDate, Double> result = RateCsvParser.parseInterest(content);
+        Map<LocalDate, Double> result = RateCsvParser.parseInterestRates(content);
 
         assertThat(result).isNotEmpty();
         assertThat(result).hasSize(28);

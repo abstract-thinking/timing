@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import java.time.LocalDate;
 import java.time.YearMonth;
 
 @Slf4j
@@ -31,24 +30,22 @@ public class GiSchedulerTask {
 
     @Scheduled(cron = "0 0 0 1 1/1 *")
     public void processGi() {
-        final LocalDate now = LocalDate.now();
+        final YearMonth now = YearMonth.now();
 
-        InterestRates interestRates = new InterestRates(ratesService.processInterestRates());
-        PartialIndicatorResult interestResult = interestRates.calculate(YearMonth.from(now));
+        InterestRates interestRates = new InterestRates(ratesService.fetchInterestRates());
+        Rates exchangeRates = new Rates(ratesService.fetchExchangeRates());
+        Rates inflationRates = new Rates(ratesService.fetchInflationRates());
 
-        PartialIndicatorResult seasonResult = new Season().calculate(YearMonth.from(now));
-
-        Rates exchangeRates = new Rates(ratesService.processExchangeRates());
-        PartialIndicatorResult exchangeResult = exchangeRates.calculate(YearMonth.from(now).minusMonths(1));
-
-        Rates inflationRates = new Rates(ratesService.processInflationRates());
-        PartialIndicatorResult inflationResult = inflationRates.calculate(YearMonth.from(now).minusMonths(2));
+        PartialIndicatorResult interestResult = interestRates.calculate(now);
+        PartialIndicatorResult seasonResult = new Season().calculate(now);
+        PartialIndicatorResult exchangeResult = exchangeRates.calculate(now.minusMonths(1));
+        PartialIndicatorResult inflationResult = inflationRates.calculate(now.minusMonths(2));
 
         final int sumOfPointsThisMonth = seasonResult.getPoint() +
                 inflationResult.getPoint() + interestResult.getPoint() + exchangeResult.getPoint();
 
         IndicatorResult result = IndicatorResult.builder()
-                .date(now)
+                .date(now.atDay(1))
                 .seasonPoint(seasonResult.getPoint())
                 .interestRate(interestResult.getRate())
                 .interestPoint(interestResult.getPoint())
@@ -62,6 +59,10 @@ public class GiSchedulerTask {
                 .shouldInvest(decideInvestment(sumOfPointsThisMonth))
                 .build();
 
+        // TODO: Update last entry of MongoDB before inserting
+        // TODO: Update csv: add new line and correct line before
+        // https://www.technicalkeeda.com/java-8-tutorials/java-8-stream-find-and-replace-file-content
+
         repository.save(result);
     }
 
@@ -71,7 +72,7 @@ public class GiSchedulerTask {
         } else if (sumOfPoints < 2) {
             return false;
         } else { // currentPoints == 2
-            return repository.findBySumOfPointsIsNot(2).get(0).shouldInvest();
+            return repository.findBySumOfPointsIsNotOrderByDateDesc(2).get(0).shouldInvest();
         }
     }
 }
