@@ -38,7 +38,8 @@ public class GiSchedulerTask {
         this.ratesService = ratesService;
     }
 
-    @Scheduled(cron = "0 0 0 1 1/1 *")
+    // First day in month at 3:07
+    @Scheduled(cron = "7 3 1 * *")
     public void processGi() {
         SeasonIndicator seasonIndicator = new SeasonIndicator();
         InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(ratesService.fetchInterestRates());
