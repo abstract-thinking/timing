@@ -1,6 +1,5 @@
 package com.example.timing.web;
 
-import com.example.timing.utils.RateCsvParser;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -43,7 +42,7 @@ public class RatesService {
     }
 
     public Map<LocalDate, Double> readInterestRates() throws IOException {
-        return RateCsvParser.parseInterestRates(readRates(), 1);
+        return parseInterestRates(readRates(), 1);
     }
 
     public Map<YearMonth, Double> readInflationRates() throws IOException {

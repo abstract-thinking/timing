@@ -1,5 +1,6 @@
 package com.example.timing.data;
 
+import com.example.timing.indicator.IndicatorResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,17 +32,17 @@ public class GiRepositoryTests {
     @Test
     public void shouldFindBySumOfPointsIsNot() {
         IndicatorResult result1 = IndicatorResult.builder()
-                .date(YearMonth.now().atDay(1))
+                .date(YearMonth.now())
                 .sumOfPoints(2)
                 .build();
 
         IndicatorResult result2 = IndicatorResult.builder()
-                .date(YearMonth.now().atDay(1).minusMonths(1))
+                .date(YearMonth.now().minusMonths(1))
                 .sumOfPoints(3)
                 .build();
 
         IndicatorResult result3 = IndicatorResult.builder()
-                .date(YearMonth.now().atDay(1).minusMonths(2))
+                .date(YearMonth.now().minusMonths(2))
                 .sumOfPoints(1)
                 .build();
 

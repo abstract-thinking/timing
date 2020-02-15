@@ -1,4 +1,4 @@
-package com.example.timing;
+package com.example.timing.indicator;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,33 +10,33 @@ import static com.example.timing.RatesGenerator.generateRatesDesc;
 import static com.example.timing.RatesGenerator.generateRatesEqual;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class RatesTests {
+public class RatesIndicatorTests {
 
     private static final YearMonth DATE = YearMonth.of(2020, Month.JANUARY);
 
     @Test
     public void shouldReturnAPointBecauseRateDecreased() {
-        Rates exchangeRates = new Rates(generateRatesDesc());
+        RatesIndicator exchangeRatesIndicator = new RatesIndicator(generateRatesDesc());
 
-        PartialIndicatorResult result = exchangeRates.calculate(DATE);
+        PartialIndicatorResult result = exchangeRatesIndicator.indicate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.0, 2.0, 1));
     }
 
     @Test
     public void shouldNotReturnAPointBecauseRateIncreased() {
-        Rates exchangeRates = new Rates(generateRatesAsc());
+        RatesIndicator exchangeRatesIndicator = new RatesIndicator(generateRatesAsc());
 
-        PartialIndicatorResult result = exchangeRates.calculate(DATE);
+        PartialIndicatorResult result = exchangeRatesIndicator.indicate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.0, 0.1, 0));
     }
 
     @Test
     public void shouldNotReturnAPointBecauseRatesAreEqual() {
-        Rates exchangeRates = new Rates(generateRatesEqual());
+        RatesIndicator exchangeRatesIndicator = new RatesIndicator(generateRatesEqual());
 
-        PartialIndicatorResult result = exchangeRates.calculate(DATE);
+        PartialIndicatorResult result = exchangeRatesIndicator.indicate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.11, 1.11, 0));
     }

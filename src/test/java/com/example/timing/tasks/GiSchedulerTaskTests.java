@@ -1,13 +1,14 @@
 package com.example.timing.tasks;
 
 import com.example.timing.data.GiRepository;
-import com.example.timing.data.IndicatorResult;
+import com.example.timing.indicator.IndicatorResult;
 import com.example.timing.web.RatesService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.YearMonth;
@@ -15,6 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -33,7 +35,7 @@ public class GiSchedulerTaskTests {
     // TODO: Should I mock the date?
     // Missing: repository.findBySumOfPointsIsNot(2).get(0).shouldInvest()
     @Test
-    public void shouldSaveIndicator() {
+    public void shouldSaveIndicator() throws IOException {
         LocalDate now = LocalDate.now();
 
         Map<YearMonth, Double> rates = new HashMap<>();
@@ -48,12 +50,17 @@ public class GiSchedulerTaskTests {
         interestRates.put(LocalDate.of(2020, Month.DECEMBER, 10), 1.0);
         interestRates.put(LocalDate.of(2015, Month.MARCH, 10), 0.1);
 
+        // Because of Application - can I avoid this an isolate
+        when(ratesService.readExchangeRates()).thenReturn(rates);
+        when(ratesService.readInflationRates()).thenReturn(rates);
+        when(ratesService.readInterestRates()).thenReturn(interestRates);
         when(ratesService.fetchExchangeRates()).thenReturn(rates);
         when(ratesService.fetchInflationRates()).thenReturn(rates);
         when(ratesService.fetchInterestRates()).thenReturn(interestRates);
 
         task.processGi();
 
-        verify(repository).save(any(IndicatorResult.class));
+        // Awesome
+        verify(repository, times(590)).save(any(IndicatorResult.class));
     }
 }

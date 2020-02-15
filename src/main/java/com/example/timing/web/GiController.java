@@ -1,9 +1,9 @@
 package com.example.timing.web;
 
-import com.example.timing.InterestRates;
-import com.example.timing.Rates;
-import com.example.timing.Season;
 import com.example.timing.data.GiRepository;
+import com.example.timing.indicator.InterestRatesIndicator;
+import com.example.timing.indicator.RatesIndicator;
+import com.example.timing.indicator.SeasonIndicator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
@@ -40,17 +40,17 @@ public class GiController {
     public String showRecentGi(Model model) {
         YearMonth now = YearMonth.now();
 
-        Season season = new Season();
-        model.addAttribute("season", season.calculate(now));
+        SeasonIndicator seasonIndicator = new SeasonIndicator();
+        model.addAttribute("season", seasonIndicator.indicate(now));
 
-        InterestRates interestRates = new InterestRates(ratesService.fetchInterestRates());
-        model.addAttribute("interest", interestRates.calculate(now));
+        InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(ratesService.fetchInterestRates());
+        model.addAttribute("interest", interestRatesIndicator.indicate(now));
 
-        Rates inflationRates = new Rates(ratesService.fetchInflationRates());
-        model.addAttribute("inflation", inflationRates.calculate(now.minusMonths(2)));
+        RatesIndicator inflationRatesIndicator = new RatesIndicator(ratesService.fetchInflationRates());
+        model.addAttribute("inflation", inflationRatesIndicator.indicate(now.minusMonths(2)));
 
-        Rates exchangeRates = new Rates(ratesService.fetchExchangeRates());
-        model.addAttribute("exchange", exchangeRates.calculate(now.minusMonths(1)));
+        RatesIndicator exchangeRatesIndicator = new RatesIndicator(ratesService.fetchExchangeRates());
+        model.addAttribute("exchange", exchangeRatesIndicator.indicate(now.minusMonths(1)));
 
         return "gi_recent";
     }

@@ -1,11 +1,11 @@
-package com.example.timing;
+package com.example.timing.indicator;
 
 import java.time.Month;
 import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Season implements Calculator {
+public class SeasonIndicator implements Indicator {
 
     private final static List<Month> FRIENDLY_MONTHS = new ArrayList<>(6);
 
@@ -18,13 +18,8 @@ public class Season implements Calculator {
         FRIENDLY_MONTHS.add(Month.APRIL);
     }
 
-//    public String asString() {
-//        String m = month.toString();
-//        return m.substring(0, 1).toUpperCase() + m.substring(1).toLowerCase();
-//    }
-
     @Override
-    public PartialIndicatorResult calculate(YearMonth yearMonth) {
+    public PartialIndicatorResult indicate(YearMonth yearMonth) {
         return PartialIndicatorResult.builder()
                 .date(yearMonth)
                 .rate(0)

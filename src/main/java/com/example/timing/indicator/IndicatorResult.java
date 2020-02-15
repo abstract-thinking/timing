@@ -1,4 +1,4 @@
-package com.example.timing.data;
+package com.example.timing.indicator;
 
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.Getter;
 import org.springframework.data.annotation.Id;
 
-import java.time.LocalDate;
+import java.time.YearMonth;
 
 @Builder
 @Data
@@ -15,7 +15,7 @@ public class IndicatorResult {
     @Id
     private String id;
 
-    private LocalDate date;
+    private YearMonth date;
 
     private int seasonPoint;
 

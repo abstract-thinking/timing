@@ -1,4 +1,4 @@
-package com.example.timing;
+package com.example.timing.indicator;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,22 +9,22 @@ import static com.example.timing.RatesGenerator.generateInterestRatesAsc;
 import static com.example.timing.RatesGenerator.generateInterestRatesDesc;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class InterestRatesTests {
+public class InterestRatesIndicatorIndicatorTests {
 
     @Test
     public void shouldReturnAPointBecauseRateDecreased() {
-        InterestRates interestRates = new InterestRates(generateInterestRatesDesc());
+        InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(generateInterestRatesDesc());
 
-        PartialIndicatorResult result = interestRates.calculate(YearMonth.now());
+        PartialIndicatorResult result = interestRatesIndicator.indicate(YearMonth.now());
 
         assertThat(result).isEqualTo(createGiResult(0.0, Month.SEPTEMBER, 1));
     }
 
     @Test
     public void shouldNotReturnAPointBecauseRateIncreased() {
-        InterestRates interestRates = new InterestRates(generateInterestRatesAsc());
+        InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(generateInterestRatesAsc());
 
-        PartialIndicatorResult result = interestRates.calculate(YearMonth.now());
+        PartialIndicatorResult result = interestRatesIndicator.indicate(YearMonth.now());
 
         assertThat(result).isEqualTo(createGiResult(0.1, Month.MAY, 0));
     }

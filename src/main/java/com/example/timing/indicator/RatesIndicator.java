@@ -1,21 +1,21 @@
-package com.example.timing;
+package com.example.timing.indicator;
 
 import java.time.YearMonth;
 import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-public final class Rates implements Calculator {
+public final class RatesIndicator implements Indicator {
 
     private final Map<YearMonth, Double> rates;
 
-    public Rates(Map<YearMonth, Double> rates) {
+    public RatesIndicator(Map<YearMonth, Double> rates) {
         this.rates = new TreeMap<>(Comparator.reverseOrder());
         this.rates.putAll(rates);
     }
 
     @Override
-    public PartialIndicatorResult calculate(YearMonth date) {
+    public PartialIndicatorResult indicate(YearMonth date) {
         YearMonth comparativeDate = date.minusYears(1);
 
         Double rate = rates.get(date);
