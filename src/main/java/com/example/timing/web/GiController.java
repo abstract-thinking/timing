@@ -4,6 +4,7 @@ import com.example.timing.data.GiRepository;
 import com.example.timing.indicator.InterestRatesIndicator;
 import com.example.timing.indicator.RatesIndicator;
 import com.example.timing.indicator.SeasonIndicator;
+import com.example.timing.service.RatesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;

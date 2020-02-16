@@ -1,27 +1,31 @@
 package com.example.timing.tasks;
 
+import com.example.timing.data.RslRepository;
+import com.example.timing.service.QuotesService;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+@Slf4j
 @Component
 public class RslSchedulerTask {
+
+    private final QuotesService service;
+
+    private final RslRepository repository;
+
+    @Autowired
+    public RslSchedulerTask(QuotesService service, RslRepository repository) {
+        this.service = service;
+        this.repository = repository;
+    }
+
+    // Every Sunday, 1:03
+    @Scheduled(cron = "0 3 1 ? * SUN")
+    public void doRsl() {
+        log.info("Scheduling RSL task");
+        repository.saveAll(service.fetchAll());
+    }
 }
 
-// URL = "https://finance.yahoo.com/quote/{}/history?period1={}&period2={}&interval=1wk&filter=history&frequency=1wk"
-//
-//
-//def fetch_data_with(index):
-//
-//    now = datetime.now()
-//    a_year_ago = now - relativedelta(months=12)
-//
-//    url = URL.format(index, int(a_year_ago.timestamp()), int(now.timestamp()))
-//    page = requests.get(url)
-//
-//    try:
-//        page.raise_for_status()
-//    except Exception as exc:
-//        from flask import current_app
-//        current_app.logger.error('Could not fetch data from Yahoo server: {}', (exc,))
-//        return None
-//
-//    return page.text

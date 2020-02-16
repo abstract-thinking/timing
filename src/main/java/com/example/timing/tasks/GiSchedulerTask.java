@@ -6,7 +6,7 @@ import com.example.timing.indicator.InterestRatesIndicator;
 import com.example.timing.indicator.PartialIndicatorResult;
 import com.example.timing.indicator.RatesIndicator;
 import com.example.timing.indicator.SeasonIndicator;
-import com.example.timing.web.RatesService;
+import com.example.timing.service.RatesService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,8 +39,10 @@ public class GiSchedulerTask {
     }
 
     // First day in month at 3:07
-    @Scheduled(cron = "7 3 1 * *")
-    public void processGi() {
+    @Scheduled(cron = "0 7 3 1 * ?")
+    public void doGi() {
+        log.info("Scheduling GI task");
+
         SeasonIndicator seasonIndicator = new SeasonIndicator();
         InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(ratesService.fetchInterestRates());
         RatesIndicator exchangeRatesIndicator = new RatesIndicator(ratesService.fetchExchangeRates());

@@ -1,4 +1,4 @@
-package com.example.timing.web;
+package com.example.timing.service;
 
 public enum SeriesKey {
 

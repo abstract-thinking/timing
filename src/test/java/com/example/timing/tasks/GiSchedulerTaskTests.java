@@ -2,7 +2,7 @@ package com.example.timing.tasks;
 
 import com.example.timing.data.GiRepository;
 import com.example.timing.indicator.IndicatorResult;
-import com.example.timing.web.RatesService;
+import com.example.timing.service.RatesService;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,7 +61,7 @@ public class GiSchedulerTaskTests {
         when(ratesService.fetchInflationRates()).thenReturn(rates);
         when(ratesService.fetchInterestRates()).thenReturn(interestRates);
 
-        task.processGi();
+        task.doGi();
 
         // Awesome
         verify(repository, times(590)).save(any(IndicatorResult.class));
