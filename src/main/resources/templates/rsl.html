@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>RSL</title>
+</head>
+<body>
+<table border="1" align="center" cellpadding="1" width="25%">
+    <thead>
+    <tr align="center">
+        <td>Date</td>
+        <td>RSL</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr align="center">
+        <td th:text="${result.begin} + ' - ' + ${result.end}"></td>
+        <td th:text="${result.rsl}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
