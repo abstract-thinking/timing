@@ -1,5 +1,6 @@
 package com.example.timing.indicator;
 
+import com.example.timing.results.PartialIndicatorResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

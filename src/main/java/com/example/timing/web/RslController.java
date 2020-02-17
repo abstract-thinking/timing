@@ -1,7 +1,7 @@
 package com.example.timing.web;
 
 import com.example.timing.data.RslRepository;
-import com.example.timing.indicator.RslResult;
+import com.example.timing.results.RslResult;
 import com.example.timing.service.QuotesService;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.time.LocalDate;
+import java.time.temporal.TemporalField;
+import java.time.temporal.WeekFields;
 import java.util.List;
+import java.util.Locale;
 
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.group;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.match;
@@ -48,11 +51,12 @@ public class RslController {
         List<RslResult> rslResults = service.fetchAll();
         repository.saveAll(rslResults);
 
-        // log.info(String.valueOf(rslResults));
         LocalDate now = LocalDate.now();
-        LocalDate startWeek = now.minusWeeks(1);
+        TemporalField fieldUS = WeekFields.of(Locale.US).dayOfWeek();
+        LocalDate begin = now.with(fieldUS, 1);
+        LocalDate end = now.with(fieldUS, 7);
 
-        MatchOperation filterDate = match(Criteria.where("date").gte(startWeek).lte(now));
+        MatchOperation filterDate = match(Criteria.where("date").gte(begin).lte(end));
         GroupOperation groupByRsl = group().avg("rsl").as("averageRsl");
 
         Aggregation aggregation = newAggregation(filterDate, groupByRsl);
@@ -61,7 +65,7 @@ public class RslController {
         Document document = result.getUniqueMappedResult();
         Double averageRsl = document.getDouble("averageRsl");
 
-        model.addAttribute("result", new Result(startWeek, now, averageRsl));
+        model.addAttribute("result", new Result(begin, end, averageRsl));
 
         return "rsl";
     }

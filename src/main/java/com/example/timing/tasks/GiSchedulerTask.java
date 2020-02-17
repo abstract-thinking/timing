@@ -1,11 +1,11 @@
 package com.example.timing.tasks;
 
 import com.example.timing.data.GiRepository;
-import com.example.timing.indicator.IndicatorResult;
 import com.example.timing.indicator.InterestRatesIndicator;
-import com.example.timing.indicator.PartialIndicatorResult;
 import com.example.timing.indicator.RatesIndicator;
 import com.example.timing.indicator.SeasonIndicator;
+import com.example.timing.results.IndicatorResult;
+import com.example.timing.results.PartialIndicatorResult;
 import com.example.timing.service.RatesService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;

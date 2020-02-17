@@ -1,5 +1,6 @@
 package com.example.timing.indicator;
 
+import com.example.timing.results.PartialIndicatorResult;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.LocalDate;

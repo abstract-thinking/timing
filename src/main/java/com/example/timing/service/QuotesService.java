@@ -1,6 +1,6 @@
 package com.example.timing.service;
 
-import com.example.timing.indicator.RslResult;
+import com.example.timing.results.RslResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import yahoofinance.Stock;
@@ -38,11 +38,13 @@ public class QuotesService {
                 List<HistoricalQuote> history = stock.getHistory();
                 history.sort(Comparator.comparing(HistoricalQuote::getDate).reversed());
 
-                final HistoricalQuote historicalQuote = history.get(0);
-                LocalDate localDate = toLocalDate(historicalQuote.getDate());
-                Double rsl = historicalQuote.getClose().doubleValue() / calculateAverage(history);
+                for (int i = 0; i < history.size() - 27; ++i) {
+                    final HistoricalQuote historicalQuote = history.get(i);
+                    LocalDate localDate = toLocalDate(historicalQuote.getDate());
+                    Double rsl = historicalQuote.getClose().doubleValue() / calculateAverage(history);
 
-                rslResults.add(new RslResult(localDate, stock.getSymbol(), rsl));
+                    rslResults.add(new RslResult(localDate, stock.getSymbol(), rsl));
+                }
             }
 
         } catch (IOException ex) {

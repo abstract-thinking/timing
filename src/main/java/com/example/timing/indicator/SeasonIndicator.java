@@ -1,5 +1,7 @@
 package com.example.timing.indicator;
 
+import com.example.timing.results.PartialIndicatorResult;
+
 import java.time.Month;
 import java.time.YearMonth;
 import java.util.ArrayList;

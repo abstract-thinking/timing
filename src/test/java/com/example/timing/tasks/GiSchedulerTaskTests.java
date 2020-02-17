@@ -1,7 +1,7 @@
 package com.example.timing.tasks;
 
 import com.example.timing.data.GiRepository;
-import com.example.timing.indicator.IndicatorResult;
+import com.example.timing.results.IndicatorResult;
 import com.example.timing.service.RatesService;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.example.timing.indicator;
+package com.example.timing.results;
 
 import lombok.Builder;
 import lombok.Value;

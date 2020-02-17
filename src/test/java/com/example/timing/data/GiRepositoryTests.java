@@ -1,6 +1,6 @@
 package com.example.timing.data;
 
-import com.example.timing.indicator.IndicatorResult;
+import com.example.timing.results.IndicatorResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

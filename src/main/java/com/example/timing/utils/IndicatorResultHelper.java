@@ -1,8 +1,8 @@
 package com.example.timing.utils;
 
 import com.example.timing.data.GiRepository;
-import com.example.timing.indicator.IndicatorResult;
-import com.example.timing.indicator.PartialIndicatorResult;
+import com.example.timing.results.IndicatorResult;
+import com.example.timing.results.PartialIndicatorResult;
 
 import java.time.YearMonth;
 
