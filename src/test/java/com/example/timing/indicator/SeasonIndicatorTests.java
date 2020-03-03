@@ -1,12 +1,14 @@
 package com.example.timing.indicator;
 
-import com.example.timing.results.PartialIndicatorResult;
+import com.example.timing.boundary.gi.PartialIndicatorResult;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.Month;
 import java.time.YearMonth;
 
+import static java.time.Month.MAY;
+import static java.time.Month.NOVEMBER;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SeasonIndicatorTests {
@@ -20,16 +22,16 @@ public class SeasonIndicatorTests {
 
     @Test
     public void shouldBeAFriendlyMonth() {
-        PartialIndicatorResult result = seasonIndicator.indicate(YearMonth.of(2020, Month.NOVEMBER));
+        PartialIndicatorResult result = seasonIndicator.indicate(YearMonth.of(2020, NOVEMBER));
 
-        assertThat(result).isEqualTo(createPartialIndicatorResult(Month.NOVEMBER, 1));
+        assertThat(result).isEqualTo(createPartialIndicatorResult(NOVEMBER, 1));
     }
 
     @Test
     public void shouldNotBeAFriendlyMonth() {
-        PartialIndicatorResult result = seasonIndicator.indicate(YearMonth.of(2020, Month.MAY));
+        PartialIndicatorResult result = seasonIndicator.indicate(YearMonth.of(2020, MAY));
 
-        assertThat(result).isEqualTo(createPartialIndicatorResult(Month.MAY, 0));
+        assertThat(result).isEqualTo(createPartialIndicatorResult(MAY, 0));
     }
 
     private PartialIndicatorResult createPartialIndicatorResult(Month month, int point) {

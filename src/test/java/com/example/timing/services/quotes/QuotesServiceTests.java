@@ -1,6 +1,6 @@
-package com.example.timing;
+package com.example.timing.services.quotes;
 
-import com.example.timing.service.QuotesService;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -9,6 +9,7 @@ import java.time.temporal.TemporalField;
 import java.time.temporal.WeekFields;
 import java.util.Locale;
 
+@Disabled
 public class QuotesServiceTests {
 
     @Test

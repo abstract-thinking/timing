@@ -1,6 +1,6 @@
-package com.example.timing.service;
+package com.example.timing.services.quotes;
 
-import com.example.timing.results.RslResult;
+import com.example.timing.boundary.rsl.RslResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import yahoofinance.Stock;

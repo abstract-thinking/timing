@@ -1,4 +1,4 @@
-package com.example.timing.utils;
+package com.example.timing.services.rates;
 
 import java.time.LocalDate;
 import java.time.YearMonth;

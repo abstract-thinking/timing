@@ -1,10 +1,9 @@
-package com.example.timing.utils;
+package com.example.timing.boundary.gi;
 
-import com.example.timing.data.GiRepository;
-import com.example.timing.results.IndicatorResult;
-import com.example.timing.results.PartialIndicatorResult;
+import com.example.timing.data.gi.GiRepository;
 
 import java.time.YearMonth;
+import java.util.List;
 
 public class IndicatorResultHelper {
 
@@ -40,7 +39,13 @@ public class IndicatorResultHelper {
         } else if (sumOfPoints < 2) {
             return false;
         } else { // currentPoints == 2
-            return repository.findBySumOfPointsIsNotOrderByDateDesc(2).get(0).shouldInvest();
+            List<IndicatorResult> result = repository.findBySumOfPointsIsNotOrderByDateDesc(2);
+            if (result.isEmpty()) {
+                return false;
+            } else {
+                return result.get(0).shouldInvest();
+
+            }
         }
     }
 }

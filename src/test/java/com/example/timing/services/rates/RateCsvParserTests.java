@@ -1,15 +1,16 @@
-package com.example.timing.utils;
+package com.example.timing.services.rates;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.core.io.ClassPathResource;
 
 import java.io.IOException;
 import java.time.LocalDate;
-import java.time.Month;
 import java.time.YearMonth;
 import java.util.Map;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
+import static java.time.Month.JANUARY;
+import static java.time.Month.SEPTEMBER;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.util.StreamUtils.copyToString;
 
@@ -23,8 +24,8 @@ public class RateCsvParserTests {
 
         assertThat(result).isNotEmpty();
         assertThat(result).hasSize(28);
-        assertThat(result.get(LocalDate.of(2019, Month.SEPTEMBER, 18))).isEqualTo(0.00);
-        assertThat(result.get(LocalDate.of(1999, Month.JANUARY, 1))).isEqualTo(3.00);
+        assertThat(result.get(LocalDate.of(2019, SEPTEMBER, 18))).isEqualTo(0.00);
+        assertThat(result.get(LocalDate.of(1999, JANUARY, 1))).isEqualTo(3.00);
     }
 
     @Test
@@ -35,8 +36,8 @@ public class RateCsvParserTests {
 
         assertThat(result).isNotEmpty();
         assertThat(result).hasSize(253);
-        assertThat(result.get(YearMonth.of(2020, Month.JANUARY))).isEqualTo(1.1052);
-        assertThat(result.get(YearMonth.of(1999, Month.JANUARY))).isEqualTo(1.1384);
+        assertThat(result.get(YearMonth.of(2020, JANUARY))).isEqualTo(1.1052);
+        assertThat(result.get(YearMonth.of(1999, JANUARY))).isEqualTo(1.1384);
     }
 
     @Test
@@ -47,8 +48,8 @@ public class RateCsvParserTests {
 
         assertThat(result).isNotEmpty();
         assertThat(result).hasSize(277);
-        assertThat(result.get(YearMonth.of(2020, Month.JANUARY))).isEqualTo(1.4);
-        assertThat(result.get(YearMonth.of(1997, Month.JANUARY))).isEqualTo(2.0);
+        assertThat(result.get(YearMonth.of(2020, JANUARY))).isEqualTo(1.4);
+        assertThat(result.get(YearMonth.of(1997, JANUARY))).isEqualTo(2.0);
     }
 
     private String readFile(String fileName) throws IOException {

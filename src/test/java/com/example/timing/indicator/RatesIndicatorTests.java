@@ -1,19 +1,19 @@
 package com.example.timing.indicator;
 
-import com.example.timing.results.PartialIndicatorResult;
+import com.example.timing.boundary.gi.PartialIndicatorResult;
 import org.junit.jupiter.api.Test;
 
-import java.time.Month;
 import java.time.YearMonth;
 
-import static com.example.timing.RatesGenerator.generateRatesAsc;
-import static com.example.timing.RatesGenerator.generateRatesDesc;
-import static com.example.timing.RatesGenerator.generateRatesEqual;
+import static com.example.timing.utils.RatesGenerator.generateRatesAsc;
+import static com.example.timing.utils.RatesGenerator.generateRatesDesc;
+import static com.example.timing.utils.RatesGenerator.generateRatesEqual;
+import static java.time.Month.JANUARY;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class RatesIndicatorTests {
 
-    private static final YearMonth DATE = YearMonth.of(2020, Month.JANUARY);
+    private static final YearMonth DATE = YearMonth.of(2020, JANUARY);
 
     @Test
     public void shouldReturnAPointBecauseRateDecreased() {

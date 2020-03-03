@@ -1,10 +1,10 @@
-package com.example.timing.web;
+package com.example.timing.boundary.gi;
 
-import com.example.timing.data.GiRepository;
+import com.example.timing.data.gi.GiRepository;
 import com.example.timing.indicator.InterestRatesIndicator;
 import com.example.timing.indicator.RatesIndicator;
 import com.example.timing.indicator.SeasonIndicator;
-import com.example.timing.service.RatesService;
+import com.example.timing.services.rates.RatesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
@@ -30,7 +30,7 @@ public class GiController {
         this.ratesService = ratesService;
     }
 
-    @GetMapping()
+    @GetMapping
     public String showGi(Model model) {
         model.addAttribute("results", repository.findAll(Sort.by(DESC, "date")));
 
@@ -38,7 +38,7 @@ public class GiController {
     }
 
     @GetMapping("/current")
-    public String showRecentGi(Model model) {
+    public String showCurrentGi(Model model) {
         YearMonth now = YearMonth.now();
 
         SeasonIndicator seasonIndicator = new SeasonIndicator();
@@ -53,7 +53,7 @@ public class GiController {
         RatesIndicator exchangeRatesIndicator = new RatesIndicator(ratesService.fetchExchangeRates());
         model.addAttribute("exchange", exchangeRatesIndicator.indicate(now.minusMonths(1)));
 
-        return "gi_recent";
+        return "gi_current";
     }
 }
 

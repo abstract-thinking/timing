@@ -1,8 +1,7 @@
-package com.example.timing.web;
+package com.example.timing.boundary.rsl;
 
-import com.example.timing.data.RslRepository;
-import com.example.timing.results.RslResult;
-import com.example.timing.service.QuotesService;
+import com.example.timing.data.rsl.RslRepository;
+import com.example.timing.services.quotes.QuotesService;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.Document;

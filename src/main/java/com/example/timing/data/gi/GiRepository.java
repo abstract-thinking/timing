@@ -1,6 +1,6 @@
-package com.example.timing.data;
+package com.example.timing.data.gi;
 
-import com.example.timing.results.IndicatorResult;
+import com.example.timing.boundary.gi.IndicatorResult;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.time.YearMonth;

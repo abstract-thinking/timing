@@ -1,4 +1,4 @@
-package com.example.timing.service;
+package com.example.timing.services.quotes;
 
 public enum Indices {
     DAX("^GDAXI", "DAX"),

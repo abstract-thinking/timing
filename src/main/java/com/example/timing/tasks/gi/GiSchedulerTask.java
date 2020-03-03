@@ -1,12 +1,12 @@
-package com.example.timing.tasks;
+package com.example.timing.tasks.gi;
 
-import com.example.timing.data.GiRepository;
+import com.example.timing.boundary.gi.IndicatorResult;
+import com.example.timing.boundary.gi.PartialIndicatorResult;
+import com.example.timing.data.gi.GiRepository;
 import com.example.timing.indicator.InterestRatesIndicator;
 import com.example.timing.indicator.RatesIndicator;
 import com.example.timing.indicator.SeasonIndicator;
-import com.example.timing.results.IndicatorResult;
-import com.example.timing.results.PartialIndicatorResult;
-import com.example.timing.service.RatesService;
+import com.example.timing.services.rates.RatesService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ import java.time.YearMonth;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.example.timing.utils.IndicatorResultHelper.createIndicatorResult;
+import static com.example.timing.boundary.gi.IndicatorResultHelper.createIndicatorResult;
 
 @Slf4j
 @Component
@@ -49,10 +49,10 @@ public class GiSchedulerTask {
         RatesIndicator inflationRatesIndicator = new RatesIndicator(ratesService.fetchInflationRates());
 
         final YearMonth now = YearMonth.now();
-        final YearMonth oneMonthBefore = now.minusMonths(1);
-        updateResult(oneMonthBefore, seasonIndicator, interestRatesIndicator, exchangeRatesIndicator, inflationRatesIndicator);
+        final YearMonth oneMonthBeforeNow = now.minusMonths(1);
+        updateResult(oneMonthBeforeNow, seasonIndicator, interestRatesIndicator, exchangeRatesIndicator, inflationRatesIndicator);
         insertResult(now, seasonIndicator, interestRatesIndicator, exchangeRatesIndicator, inflationRatesIndicator);
-        backupResult(now, oneMonthBefore, interestRatesIndicator, exchangeRatesIndicator, inflationRatesIndicator);
+        backupResult(now, oneMonthBeforeNow, interestRatesIndicator, exchangeRatesIndicator, inflationRatesIndicator);
     }
 
     private void updateResult(YearMonth date, SeasonIndicator seasonIndicator, InterestRatesIndicator interestRatesIndicator, RatesIndicator exchangeRatesIndicator, RatesIndicator inflationRatesIndicator) {

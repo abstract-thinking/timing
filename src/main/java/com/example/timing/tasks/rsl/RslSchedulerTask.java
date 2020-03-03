@@ -1,7 +1,7 @@
-package com.example.timing.tasks;
+package com.example.timing.tasks.rsl;
 
-import com.example.timing.data.RslRepository;
-import com.example.timing.service.QuotesService;
+import com.example.timing.data.rsl.RslRepository;
+import com.example.timing.services.quotes.QuotesService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;

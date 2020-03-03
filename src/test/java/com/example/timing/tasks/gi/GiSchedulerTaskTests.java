@@ -1,8 +1,8 @@
-package com.example.timing.tasks;
+package com.example.timing.tasks.gi;
 
-import com.example.timing.data.GiRepository;
-import com.example.timing.results.IndicatorResult;
-import com.example.timing.service.RatesService;
+import com.example.timing.boundary.gi.IndicatorResult;
+import com.example.timing.data.gi.GiRepository;
+import com.example.timing.services.rates.RatesService;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +21,6 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-// TODO: Fixme
 @Disabled("Test too much and broken")
 @SpringBootTest
 public class GiSchedulerTaskTests {

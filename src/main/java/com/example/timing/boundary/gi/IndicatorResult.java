@@ -1,4 +1,4 @@
-package com.example.timing.results;
+package com.example.timing.boundary.gi;
 
 import lombok.AccessLevel;
 import lombok.Builder;

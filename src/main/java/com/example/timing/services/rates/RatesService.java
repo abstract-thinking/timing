@@ -1,4 +1,4 @@
-package com.example.timing.service;
+package com.example.timing.services.rates;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
@@ -9,11 +9,11 @@ import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Map;
 
-import static com.example.timing.service.SeriesKey.EXCHANGE;
-import static com.example.timing.service.SeriesKey.INFLATION;
-import static com.example.timing.service.SeriesKey.INTEREST;
-import static com.example.timing.utils.RateCsvParser.parseInterestRates;
-import static com.example.timing.utils.RateCsvParser.parseRates;
+import static com.example.timing.services.rates.RateCsvParser.parseInterestRates;
+import static com.example.timing.services.rates.RateCsvParser.parseRates;
+import static com.example.timing.services.rates.SeriesKey.EXCHANGE;
+import static com.example.timing.services.rates.SeriesKey.INFLATION;
+import static com.example.timing.services.rates.SeriesKey.INTEREST;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.springframework.util.StreamUtils.copyToString;
 

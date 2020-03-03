@@ -1,4 +1,4 @@
-package com.example.timing.results;
+package com.example.timing.boundary.rsl;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
