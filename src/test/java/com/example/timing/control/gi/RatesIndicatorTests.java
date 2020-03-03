@@ -1,6 +1,5 @@
-package com.example.timing.indicator;
+package com.example.timing.control.gi;
 
-import com.example.timing.boundary.gi.PartialIndicatorResult;
 import org.junit.jupiter.api.Test;
 
 import java.time.YearMonth;

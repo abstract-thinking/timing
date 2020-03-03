@@ -1,6 +1,5 @@
-package com.example.timing.indicator;
+package com.example.timing.control.gi;
 
-import com.example.timing.boundary.gi.PartialIndicatorResult;
 import org.junit.jupiter.api.Test;
 
 import java.time.YearMonth;
@@ -53,7 +52,6 @@ public class InterestRatesIndicatorIndicatorTests {
                         YearMonth.of(2009, APRIL), 1.25,
                         1));
     }
-
 
     private PartialIndicatorResult createGiResult(
             YearMonth date, double rate, YearMonth comparativeDate, double comparativeRate, int point) {

@@ -13,9 +13,9 @@
     </tr>
     </thead>
     <tbody>
-    <tr align="center">
+    <tr align="center" th:each="result: ${results}">
         <td th:text="${result.begin} + ' - ' + ${result.end}"></td>
-        <td th:text="${result.rsl}"></td>
+        <td th:text="${#numbers.formatDecimal(result.rsl, 1, 4, 'COMMA')}"></td>
     </tr>
     </tbody>
 </table>

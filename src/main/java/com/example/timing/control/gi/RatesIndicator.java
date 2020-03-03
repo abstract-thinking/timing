@@ -1,13 +1,11 @@
-package com.example.timing.indicator;
-
-import com.example.timing.boundary.gi.PartialIndicatorResult;
+package com.example.timing.control.gi;
 
 import java.time.YearMonth;
 import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-public final class RatesIndicator implements Indicator {
+final class RatesIndicator implements Indicator {
 
     private final Map<YearMonth, Double> rates;
 

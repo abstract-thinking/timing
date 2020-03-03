@@ -1,6 +1,4 @@
-package com.example.timing.indicator;
-
-import com.example.timing.boundary.gi.PartialIndicatorResult;
+package com.example.timing.control.gi;
 
 import java.time.YearMonth;
 

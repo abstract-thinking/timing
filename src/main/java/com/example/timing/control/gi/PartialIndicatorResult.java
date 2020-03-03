@@ -1,5 +1,4 @@
-package com.example.timing.boundary.gi;
-
+package com.example.timing.control.gi;
 
 import lombok.Builder;
 import lombok.Value;
@@ -8,7 +7,7 @@ import java.time.YearMonth;
 
 @Builder
 @Value
-public class PartialIndicatorResult {
+class PartialIndicatorResult {
 
     YearMonth date;
     double rate;

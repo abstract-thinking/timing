@@ -1,13 +1,11 @@
-package com.example.timing.indicator;
-
-import com.example.timing.boundary.gi.PartialIndicatorResult;
+package com.example.timing.control.gi;
 
 import java.time.Month;
 import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SeasonIndicator implements Indicator {
+class SeasonIndicator implements Indicator {
 
     private final static List<Month> FRIENDLY_MONTHS = new ArrayList<>(6);
 

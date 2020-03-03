@@ -1,12 +1,10 @@
 package com.example.timing.services.quotes;
 
-import com.example.timing.boundary.rsl.RslResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import yahoofinance.Stock;
 import yahoofinance.YahooFinance;
 import yahoofinance.histquotes.HistoricalQuote;
-import yahoofinance.histquotes.Interval;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -19,19 +17,22 @@ import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
 
+import static yahoofinance.histquotes.Interval.WEEKLY;
+
 @Slf4j
 @Service
 public class QuotesService {
 
-    public List<RslResult> fetchAll() {
+    public List<SingleRslResult> fetchAll() {
         Calendar today = Calendar.getInstance();
         Calendar from = (Calendar) today.clone();
         from.add(Calendar.YEAR, -1);
 
-        List<RslResult> rslResults = new ArrayList<>();
+        List<SingleRslResult> rslResults = new ArrayList<>();
 
+        // TODO: Logic should one layer above
         try {
-            Map<String, Stock> result = YahooFinance.get(getAllSymbols(), from, today, Interval.WEEKLY);
+            Map<String, Stock> result = YahooFinance.get(getAllSymbols(), from, today, WEEKLY);
 
             Collection<Stock> stocks = result.values();
             for (Stock stock : stocks) {
@@ -40,10 +41,15 @@ public class QuotesService {
 
                 for (int i = 0; i < history.size() - 27; ++i) {
                     final HistoricalQuote historicalQuote = history.get(i);
-                    LocalDate localDate = toLocalDate(historicalQuote.getDate());
+                    if (historicalQuote.getClose() == null) {
+                        log.warn("Data incomplete: " + historicalQuote);
+                        continue;
+                    }
+
                     Double rsl = historicalQuote.getClose().doubleValue() / calculateAverage(history);
 
-                    rslResults.add(new RslResult(localDate, stock.getSymbol(), rsl));
+                    LocalDate localDate = toLocalDate(historicalQuote.getDate());
+                    rslResults.add(new SingleRslResult(localDate, stock.getSymbol(), rsl));
                 }
             }
 

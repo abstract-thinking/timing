@@ -1,6 +1,4 @@
-package com.example.timing.indicator;
-
-import com.example.timing.boundary.gi.PartialIndicatorResult;
+package com.example.timing.control.gi;
 
 import java.time.LocalDate;
 import java.time.YearMonth;
@@ -10,7 +8,7 @@ import java.util.NavigableMap;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-public class InterestRatesIndicator implements Indicator {
+class InterestRatesIndicator implements Indicator {
 
     private final NavigableMap<LocalDate, Double> rates;
 
