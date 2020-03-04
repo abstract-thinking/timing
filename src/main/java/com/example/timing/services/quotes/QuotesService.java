@@ -17,7 +17,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
-import static java.util.Collections.emptyList;
 import static yahoofinance.histquotes.Interval.WEEKLY;
 
 @Slf4j
@@ -50,8 +49,7 @@ public class QuotesService {
             return quotes;
         } catch (IOException ex) {
             log.error("Could not fetch data!", ex);
-            // TODO: Run runtime exception 502
-            return emptyList();
+            throw new RuntimeException("Failed to fetch data!");
         }
     }
 
