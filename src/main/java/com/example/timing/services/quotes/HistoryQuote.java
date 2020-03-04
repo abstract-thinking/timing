@@ -8,7 +8,6 @@ import java.time.LocalDate;
 
 @Value
 public class HistoryQuote {
-
     Indices symbol;
     LocalDate date;
     BigDecimal adjClose;
