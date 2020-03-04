@@ -21,6 +21,7 @@ public class GiController {
     @GetMapping
     public String showGi(Model model) {
         model.addAttribute("results", giCalculator.calculate());
+
         return "gi";
     }
 }

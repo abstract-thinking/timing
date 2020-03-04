@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Slf4j
@@ -21,8 +22,15 @@ public class RslController {
     }
 
     @GetMapping
-    public String showRsl(Model model) {
+    public String showAllRsl(Model model) {
         model.addAttribute("results", calculator.calculate());
+
+        return "rsl";
+    }
+
+    @GetMapping(value = "{symbol}")
+    public String showRsl(@PathVariable("symbol") String symbol, Model model) {
+        model.addAttribute("results", calculator.calculate(symbol));
 
         return "rsl";
     }

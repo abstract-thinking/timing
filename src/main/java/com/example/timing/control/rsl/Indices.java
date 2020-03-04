@@ -1,4 +1,4 @@
-package com.example.timing.services.quotes;
+package com.example.timing.control.rsl;
 
 public enum Indices {
     DAX("^GDAXI", "DAX"),
@@ -8,7 +8,7 @@ public enum Indices {
     STOXX50("^STOXX50E", "Euro Stoxx 50"),
     SP500("^GSPC", "S&P 500"),
     DJ("^DJI", "Dow Jones 30"),
-    NASDAQ("^IXIC", "Nasdaq Compositive"),
+    NASDAQ("^IXIC", "Nasdaq Composite"),
     NIKKEI("^N225", "Nikkei 225"),
     // FTSE("^FTSE", "FTSE 100"),
     NYSE("^NYA", "NYSE COMPOSITE (DJ)"),
@@ -59,6 +59,16 @@ public enum Indices {
 
     public String getName() {
         return name;
+    }
+
+    public static Indices from(String symbol) {
+        for (Indices indices : Indices.values()) {
+            if (indices.getSymbol().contains(symbol)) {
+                return indices;
+            }
+        }
+
+        throw new IllegalArgumentException("Unknown symbol " + symbol);
     }
 }
 
