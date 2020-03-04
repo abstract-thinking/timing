@@ -28,9 +28,9 @@ public class RslController {
         return "rsl";
     }
 
-    @GetMapping(value = "{symbol}")
-    public String showRsl(@PathVariable("symbol") String symbol, Model model) {
-        model.addAttribute("results", calculator.calculate(symbol));
+    @GetMapping(value = "{name}")
+    public String showRsl(@PathVariable("name") String name, Model model) {
+        model.addAttribute("results", calculator.calculate(name));
 
         return "rsl";
     }
