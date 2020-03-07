@@ -11,7 +11,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 import static com.example.timing.control.rsl.Indices.DAX;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -52,7 +54,7 @@ public class RslCalculatorTests {
         assertThrows(IllegalArgumentException.class, () -> calculator.calculate("BLAH"));
     }
 
-    private List<HistoryQuote> createQuotes() {
+    private Map<Indices, List<HistoryQuote>> createQuotes() {
         List<HistoryQuote> quotes = new ArrayList<>();
         quotes.add(new HistoryQuote(DAX, LocalDate.parse("2020-03-04"), BigDecimal.valueOf(12167.769531)));
         quotes.add(new HistoryQuote(DAX, LocalDate.parse("2020-03-02"), BigDecimal.valueOf(11985.389648)));
@@ -109,39 +111,43 @@ public class RslCalculatorTests {
         quotes.add(new HistoryQuote(DAX, LocalDate.parse("2019-03-11"), BigDecimal.valueOf(11685.69043)));
         quotes.add(new HistoryQuote(DAX, LocalDate.parse("2019-03-04"), BigDecimal.valueOf(11457.839844)));
 
-        return quotes;
+        return Collections.singletonMap(DAX, quotes);
     }
 
     private List<RslResult> createExpectedQuotes() {
         List<RslResult> expected = new ArrayList<>();
         // That's odd. Yahoo delivers two results. The first for Monday is okay
         // (Mo, 02.03.2020) 0,924589770865324 + (Mi, 04.03.2020) 0,93872338023915 = 0,931656575552237
-        expected.add(new RslResult(LocalDate.parse("2020-03-01"), LocalDate.parse("2020-03-07"), 0.9316565755522372));
-        expected.add(new RslResult(LocalDate.parse("2020-02-23"), LocalDate.parse("2020-02-29"), 0.9173789471603189));
-        expected.add(new RslResult(LocalDate.parse("2020-02-16"), LocalDate.parse("2020-02-22"), 1.0485247121258938));
-        expected.add(new RslResult(LocalDate.parse("2020-02-09"), LocalDate.parse("2020-02-15"), 1.0674116952859145));
-        expected.add(new RslResult(LocalDate.parse("2020-02-02"), LocalDate.parse("2020-02-08"), 1.055744750273663));
-        expected.add(new RslResult(LocalDate.parse("2020-01-26"), LocalDate.parse("2020-02-01"), 1.0190352511047764));
-        expected.add(new RslResult(LocalDate.parse("2020-01-19"), LocalDate.parse("2020-01-25"), 1.0674620453893393));
-        expected.add(new RslResult(LocalDate.parse("2020-01-12"), LocalDate.parse("2020-01-18"), 1.0675806871320077));
-        expected.add(new RslResult(LocalDate.parse("2020-01-05"), LocalDate.parse("2020-01-11"), 1.0679560281083795));
-        expected.add(new RslResult(LocalDate.parse("2019-12-29"), LocalDate.parse("2020-01-04"), 1.0498495659396971));
-        expected.add(new RslResult(LocalDate.parse("2019-12-22"), LocalDate.parse("2019-12-28"), 1.0617807266516448));
-        expected.add(new RslResult(LocalDate.parse("2019-12-15"), LocalDate.parse("2019-12-21"), 1.063457868237124));
-        expected.add(new RslResult(LocalDate.parse("2019-12-08"), LocalDate.parse("2019-12-14"), 1.0644171175790862));
-        expected.add(new RslResult(LocalDate.parse("2019-12-01"), LocalDate.parse("2019-12-07"), 1.0589992809117383));
-        expected.add(new RslResult(LocalDate.parse("2019-11-24"), LocalDate.parse("2019-11-30"), 1.0691989961888597));
-        expected.add(new RslResult(LocalDate.parse("2019-11-17"), LocalDate.parse("2019-11-23"), 1.0672551060962125));
-        expected.add(new RslResult(LocalDate.parse("2019-11-10"), LocalDate.parse("2019-11-16"), 1.076558389519669));
-        expected.add(new RslResult(LocalDate.parse("2019-11-03"), LocalDate.parse("2019-11-09"), 1.079327227404139));
-        expected.add(new RslResult(LocalDate.parse("2019-10-27"), LocalDate.parse("2019-11-02"), 1.0601143975625658));
-        expected.add(new RslResult(LocalDate.parse("2019-10-20"), LocalDate.parse("2019-10-26"), 1.0567395111823557));
-        expected.add(new RslResult(LocalDate.parse("2019-10-13"), LocalDate.parse("2019-10-19"), 1.0374737518216721));
-        expected.add(new RslResult(LocalDate.parse("2019-10-06"), LocalDate.parse("2019-10-12"), 1.0294433035581252));
-        expected.add(new RslResult(LocalDate.parse("2019-09-29"), LocalDate.parse("2019-10-05"), 0.9899133354226591));
-        expected.add(new RslResult(LocalDate.parse("2019-09-22"), LocalDate.parse("2019-09-28"), 1.0217670635796694));
-        expected.add(new RslResult(LocalDate.parse("2019-09-15"), LocalDate.parse("2019-09-21"), 1.0321604517888392));
-        expected.add(new RslResult(LocalDate.parse("2019-09-08"), LocalDate.parse("2019-09-14"), 1.03468540995846));
+        // Further I can't interpret the data of Yahoo. I'm sure that the RSL was over 1.0
+        // in week 2020-02-17 of 2020-02-23. Then the crash!
+        // First I was thinking the MONDAY data are for the week before
+        // At the moment I think the data are for the week.
+        expected.add(new RslResult(LocalDate.parse("2020-03-02"), LocalDate.parse("2020-03-07"), 0.9245897708653246));
+        expected.add(new RslResult(LocalDate.parse("2020-02-24"), LocalDate.parse("2020-03-01"), 0.9173789471603189));
+        expected.add(new RslResult(LocalDate.parse("2020-02-17"), LocalDate.parse("2020-02-23"), 1.0485247121258938));
+        expected.add(new RslResult(LocalDate.parse("2020-02-10"), LocalDate.parse("2020-02-16"), 1.0674116952859145));
+        expected.add(new RslResult(LocalDate.parse("2020-02-03"), LocalDate.parse("2020-02-09"), 1.055744750273663));
+        expected.add(new RslResult(LocalDate.parse("2020-01-27"), LocalDate.parse("2020-02-02"), 1.0190352511047764));
+        expected.add(new RslResult(LocalDate.parse("2020-01-20"), LocalDate.parse("2020-01-26"), 1.0674620453893393));
+        expected.add(new RslResult(LocalDate.parse("2020-01-13"), LocalDate.parse("2020-01-19"), 1.0675806871320077));
+        expected.add(new RslResult(LocalDate.parse("2020-01-06"), LocalDate.parse("2020-01-12"), 1.0679560281083795));
+        expected.add(new RslResult(LocalDate.parse("2019-12-30"), LocalDate.parse("2020-01-05"), 1.0498495659396971));
+        expected.add(new RslResult(LocalDate.parse("2019-12-23"), LocalDate.parse("2019-12-29"), 1.0617807266516448));
+        expected.add(new RslResult(LocalDate.parse("2019-12-16"), LocalDate.parse("2019-12-22"), 1.063457868237124));
+        expected.add(new RslResult(LocalDate.parse("2019-12-09"), LocalDate.parse("2019-12-15"), 1.0644171175790862));
+        expected.add(new RslResult(LocalDate.parse("2019-12-02"), LocalDate.parse("2019-12-08"), 1.0589992809117383));
+        expected.add(new RslResult(LocalDate.parse("2019-11-25"), LocalDate.parse("2019-12-01"), 1.0691989961888597));
+        expected.add(new RslResult(LocalDate.parse("2019-11-18"), LocalDate.parse("2019-11-24"), 1.0672551060962125));
+        expected.add(new RslResult(LocalDate.parse("2019-11-11"), LocalDate.parse("2019-11-17"), 1.076558389519669));
+        expected.add(new RslResult(LocalDate.parse("2019-11-04"), LocalDate.parse("2019-11-10"), 1.079327227404139));
+        expected.add(new RslResult(LocalDate.parse("2019-10-28"), LocalDate.parse("2019-11-03"), 1.0601143975625658));
+        expected.add(new RslResult(LocalDate.parse("2019-10-21"), LocalDate.parse("2019-10-27"), 1.0567395111823557));
+        expected.add(new RslResult(LocalDate.parse("2019-10-14"), LocalDate.parse("2019-10-20"), 1.0374737518216721));
+        expected.add(new RslResult(LocalDate.parse("2019-10-07"), LocalDate.parse("2019-10-13"), 1.0294433035581252));
+        expected.add(new RslResult(LocalDate.parse("2019-09-30"), LocalDate.parse("2019-10-06"), 0.9899133354226591));
+        expected.add(new RslResult(LocalDate.parse("2019-09-23"), LocalDate.parse("2019-09-29"), 1.0217670635796694));
+        expected.add(new RslResult(LocalDate.parse("2019-09-16"), LocalDate.parse("2019-09-22"), 1.0321604517888392));
+        expected.add(new RslResult(LocalDate.parse("2019-09-09"), LocalDate.parse("2019-09-15"), 1.03468540995846));
 
         return expected;
     }

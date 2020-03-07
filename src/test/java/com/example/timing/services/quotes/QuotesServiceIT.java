@@ -1,5 +1,6 @@
 package com.example.timing.services.quotes;
 
+import com.example.timing.control.rsl.Indices;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -7,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.Map;
 
 import static com.example.timing.control.rsl.Indices.DAX;
 import static java.util.Calendar.MARCH;
@@ -25,8 +27,9 @@ public class QuotesServiceIT {
         Calendar from = (Calendar) to.clone();
         from.add(YEAR, -1);
         String[] symbols = {DAX.getSymbol()};
-        List<HistoryQuote> historyQuotes = quotesService.fetchQuotes(symbols, from, to);
+        Map<Indices, List<HistoryQuote>> historyQuotes = quotesService.fetchQuotes(symbols, from, to);
 
-        assertThat(historyQuotes).isNotEmpty().hasSize(50);
+        assertThat(historyQuotes.values()).isNotEmpty().hasSize(1);
+        assertThat(historyQuotes.get(DAX)).isNotEmpty().hasSizeGreaterThanOrEqualTo(50);
     }
 }

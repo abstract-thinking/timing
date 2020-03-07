@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -23,16 +24,17 @@ import static yahoofinance.histquotes.Interval.WEEKLY;
 @Service
 public class QuotesService {
 
-    public List<HistoryQuote> fetchQuotes(String[] symbols, Calendar from, Calendar to) {
+    public Map<Indices, List<HistoryQuote>> fetchQuotes(String[] symbols, Calendar from, Calendar to) {
         try {
             Map<String, Stock> result = YahooFinance.get(symbols, from, to, WEEKLY);
 
-            List<HistoryQuote> quotes = new ArrayList<>();
+            Map<Indices, List<HistoryQuote>> results = new HashMap<>();
             Collection<Stock> stocks = result.values();
             for (Stock stock : stocks) {
                 List<HistoricalQuote> history = stock.getHistory();
                 history.sort(Comparator.comparing(HistoricalQuote::getDate).reversed());
 
+                List<HistoryQuote> quotes = new ArrayList<>();
                 for (final HistoricalQuote historicalQuote : history) {
                     if (historicalQuote.getAdjClose() == null) {
                         log.warn("Data incomplete: " + historicalQuote);
@@ -44,9 +46,11 @@ public class QuotesService {
                             toLocalDate(historicalQuote.getDate()),
                             historicalQuote.getAdjClose()));
                 }
+
+                results.put(Indices.from(stock.getSymbol()), quotes);
             }
 
-            return quotes;
+            return results;
         } catch (IOException ex) {
             log.error("Could not fetch data!", ex);
             throw new RuntimeException("Failed to fetch data!");

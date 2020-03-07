@@ -1,64 +1,91 @@
 package com.example.timing.control.rsl;
 
 public enum Indices {
-    DAX("^GDAXI", "DAX"),
-    MDAX("^MDAXI", "MDAX"),
-    TECDAX("^TECDAX", "TecDAX"),
-    SDAX("^SDAXI", "SDAX"),
-    STOXX50("^STOXX50E", "Euro Stoxx 50"),
-    SP500("^GSPC", "S&P 500"),
-    DJ("^DJI", "Dow Jones 30"),
-    NASDAQ("^IXIC", "Nasdaq Composite"),
-    NIKKEI("^N225", "Nikkei 225"),
-    // FTSE("^FTSE", "FTSE 100"),
-    NYSE("^NYA", "NYSE COMPOSITE (DJ)"),
-    CAC("^FCHI", "CAC 40"),
-    MOEX("IMOEX.ME", "MOEX Russia Index"),
-    RUSSEL("^RUT", "Russell 2000"),
-    AMEX("^XAX", "NYSE AMEX COMPOSITE INDEX"),
-    EURONEXT("^N100", "EURONEXT 100"),
-    BEL("^BFX", "BEL 20"),
-    HSI("^HSI", "HANG SENG INDEX"),
-    SSE("000001.SS", "SSE Composite Index"),
-    ASX("^AXJO", "S&P/ASX 200"),
-    AORD("^AORD", "ALL ORDINARIES"),
-    BSE("^BSESN", "S&P BSE SENSEX"),
-    JKSE("^JKSE", "Jakarta Composite Index"),
-    // KLSE("^KLSE", "FTSE Bursa Malaysia KLCI"),
-    NZ("^NZ50", "S&P/NZX 50 INDEX GROSS"),
-    KSOPI("^KS11", "KOSPI Composite Index"),
-    TSEC("^TWII", "TSEC weighted index"),
-    TSX("^GSPTSE", "S&P/TSX Composite index"),
-    IBOVESPA("^BVSP", "IBOVESPA"),
-    IPC("^MXX", "IPC MEXICO"),
-    IPSA("^IPSA", "IPSA SANTIAGO DE CHILE"),
-    MERVAL("^MERV", "MERVAL"),
-    TA("^TA125.TA", "TA-125"),
-    EGX("^CASE30", "EGX 30 Price Return Index"),
-    TRI("^JN0U.JO", "Top 40 USD Net TRI Index"),
-    ATX("^ATX", "Austrian Traded Index"),
-    SMI("^SSMI", "Swiss Market Index"),
-    OSE("^OSEAX", "Oslo Bors All-share"),
-    OMX("^OMX", "OMX Stockholm 30 Index"),
-    OMC("^OMXC20", "OMX Copenhagen 20"),
-    IBEX("^IBEX", "IBEX"),
-    PSE("PSEI.PS", "PSEi INDEX");
+
+    // major indices
+    SP500("^GSPC", "S&P 500", "US", true),
+    NASDAQ("^IXIC", "Nasdaq", "US", true),
+    RUSSEL2000("^RUT", "SmallCap 2000", "US", true),
+    TSX("^GSPTSE", "S&P/TSX", "Canada", true),
+    Bovespa("^BVSP", "Bovespa", "Brazil", true),
+    BMVIPC("^MXX", "S&P/BMV IPC", "Mexico", true),
+    DAX("^GDAXI", "DAX 30", "Germany", true),
+    // FTSE100("^FTSE", "FTSE 100", "Great Britain", true),
+    CAC40("^FCHI", "CAC 40", "France", true),
+    STOXX50("^STOXX50E", "Euro Stoxx 50", "Europe", true),
+    AEX("^AEX", "AEX", "Netherlands", true),
+    IBEX35("^IBEX", "IBEX 35", "Spain", true),
+    // MIB("FTSEMIB.MI", "FTSE MIB", "Italy"),
+    SMI("^SSMI", "SMI", "Switzerland", true),
+    PSI20("PSI20.LS", "PSI 20", "Portugal", true),
+    BEL20("^BFX", "BEL 20", "Belgium", true),
+    ATX("^ATX", "ATX", "Austria", true),
+    OMXS30("^OMX", "OMXS3", "Sweden", true),
+    OMXC25("^OMXC25", "OMXC25", "Denmark", true),
+    MOEX("IMOEX.ME", "MOEX", "Russia", true),
+    RTSI("RTSI.ME", "RTSI", "Russia", true),
+    WIG20("WIG.PA", "WIG20", "Poland", true), // ETF
+    // Budapest SE	("^HTL", "Budapest SE", "Hungarian", true),
+    BIST100("XU100.IS", "BIST 100", "Turkey", true),
+    TA35("TA35.TA", "TA 35", "Israel", true),
+    TASI("^TASI.SR", "Tadawul All Share", "Saudi Arabia", true),
+    NIKKEI225("^N225", "Nikkei 225", "Japan", true),
+    ASX("^AXJO", "S&P/ASX 200", "Australia", true),
+    NZ50("^NZ50", "DJ New Zealand", "New Zealand", true),
+    SS("000001.SS", "Shanghai", "China", true),
+    SZSE("399001.SZ", "SZSE Component", "China", true),
+    A50("XIN9.FGI", "China A50", "China", true),
+    HSI("^HSI", "Hang Seng", "China", true),
+    TWI("^TWII", "Taiwan Weighted", "Taiwan", true),
+    SETI("SETI.KL", "SETI", "Malaysia", true),
+    KOSPI("^KS11", "KOSPI", "South Korea", true),
+    IDX("^JKSE", "IDX Composite - Jakarta Composite Index", "Indonesia", true),
+    Nifty50("^NSEI", "Nifty 50", "India", true),
+    BSE("^BSESN", "BSE Sensex", "India", true),
+    PSEi("PSEI.PS", "PSEi Composite", "Philippines", true),
+    STI("^STI", "STI Index", "Singapore", true),
+    // Karachi 100("^KSE", "Karachi 100", "Pakistan", true),
+    // HNX30("FVTT.L", "FTSE Vietnam Index - HNX 30", "Vietnam", true),
+    CSE("^CSE", "CSE All-Share", "Sri Lanka", true),
+
+    // minor indices
+    MDAX("^MDAXI", "MDAX", "Germany", false),
+    TECDAX("^TECDAX", "TecDAX", "Germany", false),
+    SDAX("^SDAXI", "SDAX", "Germany", false),
+    DOW30("^DJI", "Dow 30", "US", false),
+    NYSE("^NYA", "NYSE COMPOSITE (DJ)", "US", false),
+    AMEX("^XAX", "NYSE AMEX COMPOSITE INDEX", "US", false),
+    EURONEXT("^N100", "EURONEXT 100", "Europe", false),
+    AORD("^AORD", "ALL ORDINARIES", "Australia", false),
+    // KLSE("^KLSE", "FTSE Bursa Malaysia KLCI", "Malaysia", false),
+    IPSA("^IPSA", "IPSA SANTIAGO DE CHILE", "Chile", false),
+    MERVAL("^MERV", "MERVAL", "Argentina", false),
+    TA("^TA125.TA", "TA-125", "Israel", false),
+    EGX("^CASE30", "EGX 30 Price Return Index", "Egypt", false),
+    TRI("^JN0U.JO", "Top 40 USD Net TRI Index", "South Africa", false),
+    OSE("^OSEAX", "Oslo Bors All-share", "Norway", false);
 
     private final String symbol;
 
-    private final String name;
+    private final String description;
 
-    Indices(String symbol, String name) {
+    private final String country;
+
+    private final boolean isMajor;
+
+    Indices(String symbol, String description, String country, boolean isMajor) {
         this.symbol = symbol;
-        this.name = name;
+        this.description = description;
+        this.country = country;
+        this.isMajor = isMajor;
     }
 
     public String getSymbol() {
         return symbol;
     }
 
-    public String getName() {
-        return name;
+    public boolean isMajor() {
+        return isMajor;
     }
 
     public static Indices from(String symbol) {
@@ -71,4 +98,3 @@ public enum Indices {
         throw new IllegalArgumentException("Unknown symbol " + symbol);
     }
 }
-
