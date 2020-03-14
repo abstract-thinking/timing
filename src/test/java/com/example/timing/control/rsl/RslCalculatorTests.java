@@ -3,6 +3,7 @@ package com.example.timing.control.rsl;
 import com.example.timing.boundary.rsl.RslResult;
 import com.example.timing.services.quotes.HistoryQuote;
 import com.example.timing.services.quotes.QuotesService;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -16,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 import static com.example.timing.control.rsl.Indices.DAX;
+import static java.time.Month.MARCH;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
@@ -29,6 +31,14 @@ public class RslCalculatorTests {
 
     @InjectMocks
     private RslCalculator calculator;
+
+    @BeforeEach
+    public void setTestDates() {
+        LocalDate toDate = LocalDate.of(2020, MARCH, 8);
+
+        calculator.setToDate(toDate);
+        calculator.setFromDate(toDate.minusYears(1));
+    }
 
     @Test
     public void shouldCalculateAll() {
@@ -122,7 +132,7 @@ public class RslCalculatorTests {
         // in week 2020-02-17 of 2020-02-23. Then the crash!
         // First I was thinking the MONDAY data are for the week before
         // At the moment I think the data are for the week.
-        expected.add(new RslResult(LocalDate.parse("2020-03-02"), LocalDate.parse("2020-03-07"), 0.9245897708653246));
+        expected.add(new RslResult(LocalDate.parse("2020-03-02"), LocalDate.parse("2020-03-08"), 0.9245897708653246));
         expected.add(new RslResult(LocalDate.parse("2020-02-24"), LocalDate.parse("2020-03-01"), 0.9173789471603189));
         expected.add(new RslResult(LocalDate.parse("2020-02-17"), LocalDate.parse("2020-02-23"), 1.0485247121258938));
         expected.add(new RslResult(LocalDate.parse("2020-02-10"), LocalDate.parse("2020-02-16"), 1.0674116952859145));

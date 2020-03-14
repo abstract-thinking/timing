@@ -10,10 +10,12 @@ import yahoofinance.histquotes.HistoricalQuote;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,8 +26,11 @@ import static yahoofinance.histquotes.Interval.WEEKLY;
 @Service
 public class QuotesService {
 
-    public Map<Indices, List<HistoryQuote>> fetchQuotes(String[] symbols, Calendar from, Calendar to) {
+    public Map<Indices, List<HistoryQuote>> fetchQuotes(String[] symbols, LocalDate fromDate, LocalDate toDate) {
         try {
+            Calendar from = GregorianCalendar.from(fromDate.atStartOfDay(ZoneId.systemDefault()));
+            Calendar to = GregorianCalendar.from(toDate.atStartOfDay(ZoneId.systemDefault()));
+
             Map<String, Stock> result = YahooFinance.get(symbols, from, to, WEEKLY);
 
             Map<Indices, List<HistoryQuote>> results = new HashMap<>();
