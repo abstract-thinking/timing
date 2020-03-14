@@ -2,6 +2,7 @@ package com.example.timing.services.quotes;
 
 import com.example.timing.control.rsl.Indices;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import yahoofinance.Stock;
 import yahoofinance.YahooFinance;
@@ -12,14 +13,18 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.GregorianCalendar;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
 
+import static java.util.concurrent.CompletableFuture.completedFuture;
+import static java.util.stream.Collectors.toList;
 import static yahoofinance.histquotes.Interval.WEEKLY;
 
 @Slf4j
@@ -27,39 +32,55 @@ import static yahoofinance.histquotes.Interval.WEEKLY;
 public class QuotesService {
 
     public Map<Indices, List<HistoryQuote>> fetchQuotes(String[] symbols, LocalDate fromDate, LocalDate toDate) {
+        Calendar from = GregorianCalendar.from(fromDate.atStartOfDay(ZoneId.systemDefault()));
+        Calendar to = GregorianCalendar.from(toDate.atStartOfDay(ZoneId.systemDefault()));
+
+        List<CompletableFuture<List<HistoryQuote>>> futures = Arrays.stream(symbols)
+                .map(symbol ->
+                        completedFuture(fetchSymbol(symbol, from, to)).thenApplyAsync(this::mapQuotes))
+                .collect(toList());
+
+        return futures.stream()
+                .map(CompletableFuture::join)
+                .flatMap(Collection::stream)
+                .sorted(Comparator.comparing(HistoryQuote::getDate).reversed())
+                .collect(Collectors.groupingBy(HistoryQuote::getSymbol));
+    }
+
+    @Async
+    private Stock fetchSymbol(String symbol, Calendar from, Calendar to) {
         try {
-            Calendar from = GregorianCalendar.from(fromDate.atStartOfDay(ZoneId.systemDefault()));
-            Calendar to = GregorianCalendar.from(toDate.atStartOfDay(ZoneId.systemDefault()));
+            return YahooFinance.get(symbol, from, to, WEEKLY);
+        } catch (IOException e) {
+            log.error("Fetching of symbol {} failed!", symbol, e);
+            throw new RuntimeException("Fetching of symbol " + symbol + " failed!");
+        }
+    }
 
-            Map<String, Stock> result = YahooFinance.get(symbols, from, to, WEEKLY);
+    @Async
+    private List<HistoryQuote> mapQuotes(Stock stock) {
+        List<HistoricalQuote> history;
+        try {
+            history = stock.getHistory();
+        } catch (IOException e) {
+            log.error("Mapping of quotes {} failed!", stock, e);
+            throw new RuntimeException("Fetching of quotes " + stock + " failed!");
+        }
 
-            Map<Indices, List<HistoryQuote>> results = new HashMap<>();
-            Collection<Stock> stocks = result.values();
-            for (Stock stock : stocks) {
-                List<HistoricalQuote> history = stock.getHistory();
-                history.sort(Comparator.comparing(HistoricalQuote::getDate).reversed());
-
-                List<HistoryQuote> quotes = new ArrayList<>();
-                for (final HistoricalQuote historicalQuote : history) {
-                    if (historicalQuote.getAdjClose() == null) {
-                        log.warn("Data incomplete: " + historicalQuote);
-                        continue;
-                    }
-
-                    quotes.add(new HistoryQuote(
-                            Indices.from(historicalQuote.getSymbol()),
-                            toLocalDate(historicalQuote.getDate()),
-                            historicalQuote.getAdjClose()));
-                }
-
-                results.put(Indices.from(stock.getSymbol()), quotes);
+        List<HistoryQuote> quotes = new ArrayList<>();
+        for (final HistoricalQuote historicalQuote : history) {
+            if (historicalQuote.getAdjClose() == null) {
+                log.warn("Data incomplete: " + historicalQuote);
+                continue;
             }
 
-            return results;
-        } catch (IOException ex) {
-            log.error("Could not fetch data!", ex);
-            throw new RuntimeException("Failed to fetch data!");
+            quotes.add(new HistoryQuote(
+                    Indices.from(historicalQuote.getSymbol()),
+                    toLocalDate(historicalQuote.getDate()),
+                    historicalQuote.getAdjClose()));
         }
+
+        return quotes;
     }
 
     private LocalDate toLocalDate(Calendar calendar) {

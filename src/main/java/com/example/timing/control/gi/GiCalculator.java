@@ -2,15 +2,21 @@ package com.example.timing.control.gi;
 
 import com.example.timing.boundary.gi.IndicatorResult;
 import com.example.timing.services.rates.RatesService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 import static java.time.Month.JANUARY;
 import static java.util.Comparator.comparing;
 
+@Slf4j
 @Service
 public class GiCalculator {
 
@@ -21,10 +27,22 @@ public class GiCalculator {
     }
 
     public List<IndicatorResult> calculate() {
+        CompletableFuture<Map<LocalDate, Double>> interestRatesFuture = ratesService.fetchInterestRates();
+        CompletableFuture<Map<YearMonth, Double>> exchangeRatesFuture = ratesService.fetchExchangeRates();
+        CompletableFuture<Map<YearMonth, Double>> inflationRatesFuture = ratesService.fetchInflationRates();
+
         SeasonIndicator seasonIndicator = new SeasonIndicator();
-        InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(ratesService.fetchInterestRates());
-        RatesIndicator exchangeRatesIndicator = new RatesIndicator(ratesService.fetchExchangeRates());
-        RatesIndicator inflationRatesIndicator = new RatesIndicator(ratesService.fetchInflationRates());
+        final InterestRatesIndicator interestRatesIndicator;
+        final RatesIndicator exchangeRatesIndicator;
+        final RatesIndicator inflationRatesIndicator;
+        try {
+            interestRatesIndicator = new InterestRatesIndicator(interestRatesFuture.get());
+            exchangeRatesIndicator = new RatesIndicator(exchangeRatesFuture.get());
+            inflationRatesIndicator = new RatesIndicator(inflationRatesFuture.get());
+        } catch (ExecutionException | InterruptedException ex) {
+            log.error("Fetching data failed!", ex);
+            throw new RuntimeException("Fetching data failed");
+        }
 
         final YearMonth startDate = YearMonth.of(2001, JANUARY);
         final YearMonth endDate = YearMonth.now().plusMonths(1);

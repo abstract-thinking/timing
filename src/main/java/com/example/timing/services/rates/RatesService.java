@@ -1,17 +1,20 @@
 package com.example.timing.services.rates;
 
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 import static com.example.timing.services.rates.RateCsvParser.parseInterestRates;
 import static com.example.timing.services.rates.RateCsvParser.parseRates;
 import static com.example.timing.services.rates.SeriesKey.EXCHANGE;
 import static com.example.timing.services.rates.SeriesKey.INFLATION;
 import static com.example.timing.services.rates.SeriesKey.INTEREST;
+import static java.util.concurrent.CompletableFuture.completedFuture;
 
 @Service
 public class RatesService {
@@ -21,16 +24,19 @@ public class RatesService {
     // https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY=120.EXR.M.USD.EUR.SP00.E
     private static final String URL_ECB = "https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY={key}";
 
-    public Map<LocalDate, Double> fetchInterestRates() {
-        return parseInterestRates(fetchRates(INTEREST));
+    @Async
+    public CompletableFuture<Map<LocalDate, Double>> fetchInterestRates() {
+        return completedFuture(parseInterestRates(fetchRates(INTEREST)));
     }
 
-    public Map<YearMonth, Double> fetchInflationRates() {
-        return parseRates(fetchRates(INFLATION));
+    @Async
+    public CompletableFuture<Map<YearMonth, Double>> fetchInflationRates() {
+        return completedFuture(parseRates(fetchRates(INFLATION)));
     }
 
-    public Map<YearMonth, Double> fetchExchangeRates() {
-        return parseRates(fetchRates(EXCHANGE));
+    @Async
+    public CompletableFuture<Map<YearMonth, Double>> fetchExchangeRates() {
+        return completedFuture(parseRates(fetchRates(EXCHANGE)));
     }
 
     private String fetchRates(SeriesKey key) {
