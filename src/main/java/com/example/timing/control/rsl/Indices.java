@@ -28,7 +28,7 @@ public enum Indices {
     // Budapest SE	("^HTL", "Budapest SE", "Hungarian", true),
     BIST100("XU100.IS", "BIST 100", "Turkey", true),
     TA35("TA35.TA", "TA 35", "Israel", true),
-    TASI("^TASI.SR", "Tadawul All Share", "Saudi Arabia", true),
+// TASI("^TASI.SR", "Tadawul All Share", "Saudi Arabia", true),
     NIKKEI225("^N225", "Nikkei 225", "Japan", true),
     ASX("^AXJO", "S&P/ASX 200", "Australia", true),
     NZ50("^NZ50", "DJ New Zealand", "New Zealand", true),
