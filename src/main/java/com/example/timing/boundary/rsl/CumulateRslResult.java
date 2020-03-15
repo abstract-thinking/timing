@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 @ToString
 @Value
-public class RslResult {
+public class CumulateRslResult {
     LocalDate begin;
     LocalDate end;
     Double rsl;

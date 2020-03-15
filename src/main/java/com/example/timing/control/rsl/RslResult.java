@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 @ToString
 @Value
-public class SingleRslResult {
+public class RslResult {
     Indices symbol;
     LocalDate date;
     Double rsl;

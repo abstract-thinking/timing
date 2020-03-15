@@ -13,7 +13,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Comparator;
@@ -31,11 +30,11 @@ import static yahoofinance.histquotes.Interval.WEEKLY;
 @Service
 public class QuotesService {
 
-    public Map<Indices, List<HistoryQuote>> fetchQuotes(String[] symbols, LocalDate fromDate, LocalDate toDate) {
+    public Map<Indices, List<HistoryQuote>> fetchQuotes(List<String> symbols, LocalDate fromDate, LocalDate toDate) {
         Calendar from = GregorianCalendar.from(fromDate.atStartOfDay(ZoneId.systemDefault()));
         Calendar to = GregorianCalendar.from(toDate.atStartOfDay(ZoneId.systemDefault()));
 
-        List<CompletableFuture<List<HistoryQuote>>> futures = Arrays.stream(symbols)
+        List<CompletableFuture<List<HistoryQuote>>> futures = symbols.stream()
                 .map(symbol ->
                         completedFuture(fetchSymbol(symbol, from, to)).thenApplyAsync(this::mapQuotes))
                 .collect(toList());

@@ -13,6 +13,11 @@ public class AsyncConfiguration {
 
     @Bean
     public Executor asyncExecutor() {
-        return new ThreadPoolTaskExecutor();
+        ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+        executor.setCorePoolSize(4);
+        executor.setMaxPoolSize(50);
+        executor.initialize();
+
+        return executor;
     }
 }
