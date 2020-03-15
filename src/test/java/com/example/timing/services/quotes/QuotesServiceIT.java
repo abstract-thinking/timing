@@ -27,8 +27,7 @@ public class QuotesServiceIT {
         List<String> symbol = singletonList(DAX.getSymbol());
         Map<Indices, List<HistoryQuote>> historyQuotes = quotesService.fetchQuotes(symbol, fromDate, toDate);
 
-        assertThat(historyQuotes).containsKey(DAX);
-        assertThat(historyQuotes).isNotEmpty().hasSize(1);
+        assertThat(historyQuotes).isNotEmpty().hasSize(1).containsKey(DAX);
         assertThat(historyQuotes.get(DAX)).isNotEmpty().hasSizeGreaterThanOrEqualTo(50);
     }
 }
