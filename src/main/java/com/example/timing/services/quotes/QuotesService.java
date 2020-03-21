@@ -19,9 +19,11 @@ import java.util.Comparator;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
+import static java.util.Collections.emptyList;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 import static java.util.stream.Collectors.toList;
 import static yahoofinance.histquotes.Interval.WEEKLY;
@@ -36,7 +38,8 @@ public class QuotesService {
 
         List<CompletableFuture<List<HistoryQuote>>> futures = symbols.stream()
                 .map(symbol ->
-                        completedFuture(fetchSymbol(symbol, from, to)).thenApplyAsync(this::mapQuotes))
+                        completedFuture(fetchSymbol(symbol, from, to))
+                                .thenApplyAsync(this::mapQuotes))
                 .collect(toList());
 
         return futures.stream()
@@ -47,20 +50,24 @@ public class QuotesService {
     }
 
     @Async
-    private Stock fetchSymbol(String symbol, Calendar from, Calendar to) {
+    private Optional<Stock> fetchSymbol(String symbol, Calendar from, Calendar to) {
         try {
-            return YahooFinance.get(symbol, from, to, WEEKLY);
+            return Optional.ofNullable(YahooFinance.get(symbol, from, to, WEEKLY));
         } catch (IOException e) {
             log.error("Fetching of symbol {} failed!", symbol, e);
-            throw new RuntimeException("Fetching of symbol " + symbol + " failed!");
+            return Optional.empty();
         }
     }
 
     @Async
-    private List<HistoryQuote> mapQuotes(Stock stock) {
+    private List<HistoryQuote> mapQuotes(Optional<Stock> stock) {
+        if (stock.isEmpty()) {
+            return emptyList();
+        }
+
         List<HistoricalQuote> history;
         try {
-            history = stock.getHistory();
+            history = stock.get().getHistory();
         } catch (IOException e) {
             log.error("Mapping of quotes {} failed!", stock, e);
             throw new RuntimeException("Fetching of quotes " + stock + " failed!");
