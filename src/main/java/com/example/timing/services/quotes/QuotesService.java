@@ -15,16 +15,16 @@ import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
-import java.util.Comparator;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
-import java.util.stream.Collectors;
 
 import static java.util.Collections.emptyList;
+import static java.util.Comparator.comparing;
 import static java.util.concurrent.CompletableFuture.completedFuture;
+import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toList;
 import static yahoofinance.histquotes.Interval.WEEKLY;
 
@@ -45,8 +45,8 @@ public class QuotesService {
         return futures.stream()
                 .map(CompletableFuture::join)
                 .flatMap(Collection::stream)
-                .sorted(Comparator.comparing(HistoryQuote::getDate).reversed())
-                .collect(Collectors.groupingBy(HistoryQuote::getSymbol));
+                .sorted(comparing(HistoryQuote::getDate).reversed())
+                .collect(groupingBy(HistoryQuote::getSymbol));
     }
 
     @Async
