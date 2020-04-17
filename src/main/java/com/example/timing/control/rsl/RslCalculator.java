@@ -3,7 +3,8 @@ package com.example.timing.control.rsl;
 import com.example.timing.boundary.rsl.CumulateRslResult;
 import com.example.timing.services.quotes.HistoryQuote;
 import com.example.timing.services.quotes.QuotesService;
-import lombok.Setter;
+import com.example.timing.services.time.TimeService;
+import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -22,27 +23,15 @@ import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
 
 @Slf4j
+@AllArgsConstructor
 @Service
 public class RslCalculator {
 
-    private static final int ONE_YEAR_BEFORE = -1;
-
     private static final int PAST_WEEKS = 27;
 
-    private final QuotesService service;
+    private final QuotesService quoteService;
 
-    @Setter
-    private LocalDate toDate;
-
-    @Setter
-    private LocalDate fromDate;
-
-    public RslCalculator(QuotesService service) {
-        this.service = service;
-
-        toDate = LocalDate.now();
-        fromDate = toDate.minusYears(1);
-    }
+    private final TimeService timeService;
 
     public List<CumulateRslResult> calculate(String name) {
         List<String> symbol = singletonList(Indices.valueOf(name.toUpperCase()).getSymbol());
@@ -61,10 +50,13 @@ public class RslCalculator {
     }
 
     private List<CumulateRslResult> doCalculation(List<String> symbols) {
-        Map<Indices, List<HistoryQuote>> completeHistoricalQuotes = service.fetchQuotes(symbols, fromDate, toDate);
+        LocalDate toDate = timeService.getToDate();
+        LocalDate fromDate = toDate.minusYears(1);
+
+        Map<Indices, List<HistoryQuote>> completeHistoricalQuotes = quoteService.fetchQuotes(symbols, fromDate, toDate);
 
         List<RslResult> rslResults = calculateRslForEachSymbol(completeHistoricalQuotes);
-        List<CumulateRslResult> cumulateRslResults = cumulateRsl(rslResults);
+        List<CumulateRslResult> cumulateRslResults = cumulateRsl(rslResults, toDate);
 
         cumulateRslResults.sort(comparing(CumulateRslResult::getBegin).reversed());
 
@@ -105,11 +97,11 @@ public class RslCalculator {
                 .orElse(Double.NaN);
     }
 
-    private List<CumulateRslResult> cumulateRsl(List<RslResult> rslResults) {
+    private List<CumulateRslResult> cumulateRsl(List<RslResult> rslResults, LocalDate toDate) {
         List<CumulateRslResult> cumulateRslResults = new ArrayList<>();
 
-        final LocalDate endDate = toDate.minusMonths(6);
-        for (LocalDate date = toDate; date.isAfter(endDate); date = date.minusWeeks(1)) {
+        final LocalDate fromDate = toDate.minusMonths(6);
+        for (LocalDate date = toDate; date.isAfter(fromDate); date = date.minusWeeks(1)) {
             LocalDate begin = date.with(previousOrSame(MONDAY));
             LocalDate end = date.with(nextOrSame(SUNDAY));
 

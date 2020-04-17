@@ -3,6 +3,7 @@ package com.example.timing.control.rsl;
 import com.example.timing.boundary.rsl.CumulateRslResult;
 import com.example.timing.services.quotes.HistoryQuote;
 import com.example.timing.services.quotes.QuotesService;
+import com.example.timing.services.time.TimeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -21,28 +22,31 @@ import static java.time.Month.MARCH;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
 public class RslCalculatorTests {
 
+    private final LocalDate toDate = LocalDate.of(2020, MARCH, 8);
+
     @Mock
-    private QuotesService service;
+    private QuotesService quotesService;
+
+    @Mock
+    private TimeService timeService;
 
     @InjectMocks
     private RslCalculator calculator;
 
     @BeforeEach
     public void setTestDates() {
-        LocalDate toDate = LocalDate.of(2020, MARCH, 8);
-
-        calculator.setToDate(toDate);
-        calculator.setFromDate(toDate.minusYears(1));
+        when(timeService.getToDate()).thenReturn(toDate);
     }
 
     @Test
     public void shouldCalculateAll() {
-        when(service.fetchQuotes(any(), any(), any())).thenReturn(createQuotes());
+        when(quotesService.fetchQuotes(any(), any(), eq(toDate))).thenReturn(createQuotes());
 
         List<CumulateRslResult> result = calculator.calculate();
 
@@ -52,7 +56,7 @@ public class RslCalculatorTests {
 
     @Test
     public void shouldCalculateIndex() {
-        when(service.fetchQuotes(any(), any(), any())).thenReturn(createQuotes());
+        when(quotesService.fetchQuotes(any(), any(), eq(toDate))).thenReturn(createQuotes());
 
         List<CumulateRslResult> result = calculator.calculate("DAX");
 
