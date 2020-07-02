@@ -11,6 +11,6 @@ import javax.validation.constraints.NotBlank;
 @ConfigurationProperties(prefix = "ecb")
 public class EcbConfiguration {
 
-        @NotBlank
+        @NotBlank(message = "ecb.url should be set in the configuration")
         private String url;
 }
