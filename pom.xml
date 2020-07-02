@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>timing</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<name>timing</name>
 	<description>Market timing investment</description>
 
@@ -21,7 +21,7 @@
 		<url>https://github.com/abstract-thinking/timing</url>
 		<connection>scm:git:git://github.com/abstract-thinking/timing.git</connection>
 		<developerConnection>scm:git:git@github.com:abstract-thinking/timing.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>timing-1.2.0</tag>
 	</scm>
 
 	<dependencies>
