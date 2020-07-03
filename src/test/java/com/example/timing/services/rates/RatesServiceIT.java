@@ -3,6 +3,7 @@ package com.example.timing.services.rates;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.web.client.RestClientException;
 
 import java.time.LocalDate;
 import java.time.YearMonth;
@@ -11,6 +12,7 @@ import java.util.concurrent.ExecutionException;
 
 import static java.time.Month.JANUARY;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 @SpringBootTest
 public class RatesServiceIT {
@@ -40,6 +42,20 @@ public class RatesServiceIT {
 
         assertThat(interestRates).isNotEmpty().hasSizeGreaterThan(27);
         assertThat(interestRates.get(LocalDate.of(1999, JANUARY, 1))).isEqualTo(3.0);
+    }
+
+    @Test
+    public void shouldThrowIfNotSuccessful() {
+        ratesService = new RatesService(createConfigurationWithWrongServerUrl());
+
+        assertThatThrownBy(() -> ratesService.fetchInterestRates().get(), "check NotFound exception")
+                .isInstanceOf(RestClientException.class);
+    }
+
+    private RatesService.RatesServerConfiguration createConfigurationWithWrongServerUrl() {
+        RatesService.RatesServerConfiguration configuration = new RatesService.RatesServerConfiguration();
+        configuration.setUrl("https://spiegel.de");
+        return configuration;
     }
 }
 

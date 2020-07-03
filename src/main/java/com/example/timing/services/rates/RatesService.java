@@ -1,13 +1,13 @@
 package com.example.timing.services.rates;
 
-import com.example.timing.configuration.EcbConfiguration;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.ResponseEntity;
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.server.ResponseStatusException;
 
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Map;
@@ -19,9 +19,7 @@ import static com.example.timing.services.rates.SeriesKey.EXCHANGE;
 import static com.example.timing.services.rates.SeriesKey.INFLATION;
 import static com.example.timing.services.rates.SeriesKey.INTEREST;
 import static java.util.concurrent.CompletableFuture.completedFuture;
-import static org.springframework.http.HttpStatus.BAD_GATEWAY;
 
-@Slf4j
 @Service
 public class RatesService {
 
@@ -30,8 +28,8 @@ public class RatesService {
     // https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY=120.EXR.M.USD.EUR.SP00.E
     private final String template_url;
 
-    public RatesService(EcbConfiguration config) {
-        this.template_url = config.getUrl().concat("?type=csv&SERIES_KEY={key}");
+    public RatesService(RatesServerConfiguration config) {
+        this.template_url = config.getUrl().concat("/quickviewexport.do?type=csv&SERIES_KEY={key}");
     }
 
     @Async
@@ -50,15 +48,15 @@ public class RatesService {
     }
 
     private String fetchRates(SeriesKey key) {
-        ResponseEntity<String> entity = new RestTemplate()
-                .getForEntity(template_url, String.class, key.getKey());
-
-        if (entity.getStatusCode().is2xxSuccessful()) {
-            return entity.getBody();
-        }
-
-        log.error("Unexpected response from server: " + entity.getStatusCode());
-        throw new ResponseStatusException(BAD_GATEWAY, "Oops, something went wrong!");
+        return new RestTemplate().getForEntity(template_url, String.class, key.getKey()).getBody();
     }
 
+    @Data
+    @Configuration
+    @ConfigurationProperties(prefix = "rates.server")
+    static class RatesServerConfiguration {
+
+        @NotBlank(message = "rates.server.url must be set in the configuration")
+        private String url;
+    }
 }
