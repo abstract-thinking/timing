@@ -1,17 +1,18 @@
-package com.example.timing.boundary.gi;
+package com.example.timing.boundary.gi.api;
 
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 
+import java.time.LocalDate;
 import java.time.YearMonth;
 
 @Builder
 @Data
 public class IndicatorResult {
 
-    private YearMonth date;
+    private LocalDate date;
 
     private int seasonPoint;
 

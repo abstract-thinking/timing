@@ -2,6 +2,7 @@ package com.example.timing.control.gi;
 
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDate;
 import java.time.YearMonth;
 
 import static com.example.timing.utils.RatesGenerator.generateInterestRatesAsc;
@@ -18,12 +19,12 @@ public class InterestRatesIndicatorIndicatorTests {
     public void shouldReturnAPointBecauseRateDecreased() {
         InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(generateInterestRatesDesc());
 
-        PartialIndicatorResult result = interestRatesIndicator.indicate(YearMonth.now());
+        PartialIndicatorResult result = interestRatesIndicator.indicate(LocalDate.now());
 
         assertThat(result).isEqualTo(
                 createGiResult(
-                        YearMonth.of(2019, SEPTEMBER), 0.0,
-                        YearMonth.of(2015, SEPTEMBER), 0.05,
+                        LocalDate.of(2019, SEPTEMBER, 18), 0.0,
+                        LocalDate.of(2015, SEPTEMBER, 12), 0.05,
                         1));
     }
 
@@ -31,12 +32,12 @@ public class InterestRatesIndicatorIndicatorTests {
     public void shouldNotReturnAPointBecauseRateIncreased() {
         InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(generateInterestRatesAsc());
 
-        PartialIndicatorResult result = interestRatesIndicator.indicate(YearMonth.now());
+        PartialIndicatorResult result = interestRatesIndicator.indicate(LocalDate.now());
 
         assertThat(result).isEqualTo(
                 createGiResult(
-                        YearMonth.of(2019, SEPTEMBER), 0.1,
-                        YearMonth.of(2015, MAY), 0.05,
+                        LocalDate.of(2019, SEPTEMBER, 18), 0.1,
+                        LocalDate.of(2015, MAY, 12), 0.05,
                         0));
     }
 
@@ -44,17 +45,17 @@ public class InterestRatesIndicatorIndicatorTests {
     public void shouldReturnAPointBecauseRateDecreasedInYear2010() {
         InterestRatesIndicator interestRatesIndicator = new InterestRatesIndicator(generateInterestRatesDesc());
 
-        PartialIndicatorResult result = interestRatesIndicator.indicate(YearMonth.of(2010, DECEMBER));
+        PartialIndicatorResult result = interestRatesIndicator.indicate(LocalDate.of(2010, DECEMBER, 1));
 
         assertThat(result).isEqualTo(
                 createGiResult(
-                        YearMonth.of(2009, MAY), 1.0,
-                        YearMonth.of(2009, APRIL), 1.25,
+                        LocalDate.of(2009, MAY, 13), 1.0,
+                        LocalDate.of(2009, APRIL, 8), 1.25,
                         1));
     }
 
-    private PartialIndicatorResult createGiResult(
-            YearMonth date, double rate, YearMonth comparativeDate, double comparativeRate, int point) {
+    private static PartialIndicatorResult createGiResult(
+            LocalDate date, double rate, LocalDate comparativeDate, double comparativeRate, int point) {
         return PartialIndicatorResult.builder()
                 .date(date)
                 .rate(rate)

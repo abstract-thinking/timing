@@ -19,12 +19,12 @@ class InterestRatesIndicator implements Indicator {
     }
 
     @Override
-    public PartialIndicatorResult indicate(YearMonth date) {
-        Map.Entry<LocalDate, Double> firstEntry = rates.higherEntry(date.atDay(1));
+    public PartialIndicatorResult indicate(LocalDate date) {
+        Map.Entry<LocalDate, Double> firstEntry = rates.higherEntry(date);
 
         Map.Entry<LocalDate, Double> comparativeEntry = firstEntry;
 
-        SortedMap<LocalDate, Double> tailMap = rates.tailMap(date.atDay(1), false);
+        SortedMap<LocalDate, Double> tailMap = rates.tailMap(date, false);
         for (Map.Entry<LocalDate, Double> rate : tailMap.entrySet()) {
             if (!firstEntry.getValue().equals(rate.getValue())) {
                 comparativeEntry = rate;
@@ -33,9 +33,9 @@ class InterestRatesIndicator implements Indicator {
         }
 
         return PartialIndicatorResult.builder()
-                .date(YearMonth.from(firstEntry.getKey()))
+                .date(firstEntry.getKey())
                 .rate(firstEntry.getValue())
-                .comparativeDate(YearMonth.from(comparativeEntry.getKey()))
+                .comparativeDate(comparativeEntry.getKey())
                 .comparativeRate(comparativeEntry.getValue())
                 .point(firstEntry.getValue() < comparativeEntry.getValue() ? 1 : 0)
                 .build();

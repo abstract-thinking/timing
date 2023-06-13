@@ -1,5 +1,6 @@
 package com.example.timing.control.gi;
 
+import java.time.LocalDate;
 import java.time.Month;
 import java.time.YearMonth;
 import java.util.ArrayList;
@@ -19,13 +20,13 @@ class SeasonIndicator implements Indicator {
     }
 
     @Override
-    public PartialIndicatorResult indicate(YearMonth yearMonth) {
+    public PartialIndicatorResult indicate(LocalDate date) {
         return PartialIndicatorResult.builder()
-                .date(yearMonth)
+                .date(date)
                 .rate(0)
-                .comparativeDate(yearMonth)
+                .comparativeDate(date)
                 .comparativeRate(0)
-                .point(isFriendly(yearMonth.getMonth()) ? 1 : 0)
+                .point(isFriendly(date.getMonth()) ? 1 : 0)
                 .build();
     }
 

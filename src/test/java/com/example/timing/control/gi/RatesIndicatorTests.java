@@ -2,6 +2,7 @@ package com.example.timing.control.gi;
 
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDate;
 import java.time.YearMonth;
 
 import static com.example.timing.utils.RatesGenerator.generateRatesAsc;
@@ -12,11 +13,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RatesIndicatorTests {
 
-    private static final YearMonth DATE = YearMonth.of(2020, JANUARY);
+    private static final LocalDate DATE = LocalDate.of(2020, JANUARY, 1);
 
     @Test
     public void shouldReturnAPointBecauseRateDecreased() {
-        RatesIndicator exchangeRatesIndicator = new RatesIndicator(generateRatesDesc());
+        MonthlyRatesIndicator exchangeRatesIndicator = new MonthlyRatesIndicator(generateRatesDesc());
 
         PartialIndicatorResult result = exchangeRatesIndicator.indicate(DATE);
 
@@ -25,7 +26,7 @@ public class RatesIndicatorTests {
 
     @Test
     public void shouldNotReturnAPointBecauseRateIncreased() {
-        RatesIndicator exchangeRatesIndicator = new RatesIndicator(generateRatesAsc());
+        MonthlyRatesIndicator exchangeRatesIndicator = new MonthlyRatesIndicator(generateRatesAsc());
 
         PartialIndicatorResult result = exchangeRatesIndicator.indicate(DATE);
 
@@ -34,14 +35,14 @@ public class RatesIndicatorTests {
 
     @Test
     public void shouldNotReturnAPointBecauseRatesAreEqual() {
-        RatesIndicator exchangeRatesIndicator = new RatesIndicator(generateRatesEqual());
+        MonthlyRatesIndicator exchangeRatesIndicator = new MonthlyRatesIndicator(generateRatesEqual());
 
         PartialIndicatorResult result = exchangeRatesIndicator.indicate(DATE);
 
         assertThat(result).isEqualTo(createGiResult(1.11, 1.11, 0));
     }
 
-    private PartialIndicatorResult createGiResult(double rate, double comparativeRate, int point) {
+    private static PartialIndicatorResult createGiResult(double rate, double comparativeRate, int point) {
         return PartialIndicatorResult.builder()
                 .date(DATE)
                 .rate(rate)

@@ -1,25 +1,26 @@
 package com.example.timing.control.gi;
 
+import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-final class RatesIndicator implements Indicator {
+final class MonthlyRatesIndicator implements Indicator {
 
     private final Map<YearMonth, Double> rates;
 
-    public RatesIndicator(Map<YearMonth, Double> rates) {
+    public MonthlyRatesIndicator(Map<YearMonth, Double> rates) {
         this.rates = new TreeMap<>(Comparator.reverseOrder());
         this.rates.putAll(rates);
     }
 
     @Override
-    public PartialIndicatorResult indicate(YearMonth date) {
-        YearMonth comparativeDate = date.minusYears(1);
+    public PartialIndicatorResult indicate(LocalDate date) {
+        Double rate = rates.get(YearMonth.from(date));
 
-        Double rate = rates.get(date);
-        Double comparativeRate = rates.get(comparativeDate);
+        LocalDate comparativeDate = date.minusYears(1);
+        Double comparativeRate = rates.get(YearMonth.from(comparativeDate));
 
         return PartialIndicatorResult.builder()
                 .date(date)

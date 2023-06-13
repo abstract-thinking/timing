@@ -20,13 +20,23 @@ public class GiController {
         this.giCalculator = giCalculator;
     }
 
-    @GetMapping
-    public String showGi(Model model) {
-        log.info("GI invoked");
+    @GetMapping(path = "/monthly")
+    public String monthly(Model model) {
+        log.info("GI monthly invoked");
 
-        model.addAttribute("results", giCalculator.calculate());
+        model.addAttribute("results", giCalculator.calculateMonthly());
 
-        return "gi";
+        return "gi_monthly";
     }
+
+    @GetMapping(path = "/weekly")
+    public String weekly(Model model) {
+        log.info("GI weekly invoked");
+
+        model.addAttribute("results", giCalculator.calculateWeekly());
+
+        return "gi_weekly";
+    }
+
 }
 

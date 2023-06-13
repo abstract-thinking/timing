@@ -1,7 +1,7 @@
 package com.example.timing.control.gi;
 
-import java.time.YearMonth;
+import java.time.LocalDate;
 
 public interface Indicator {
-    PartialIndicatorResult indicate(YearMonth yearMonth);
+    PartialIndicatorResult indicate(LocalDate yearMonth);
 }

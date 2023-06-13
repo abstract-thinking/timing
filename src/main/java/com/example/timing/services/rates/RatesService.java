@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Map;
@@ -15,9 +15,7 @@ import java.util.concurrent.CompletableFuture;
 
 import static com.example.timing.services.rates.RateCsvParser.parseInterestRates;
 import static com.example.timing.services.rates.RateCsvParser.parseRates;
-import static com.example.timing.services.rates.SeriesKey.EXCHANGE;
-import static com.example.timing.services.rates.SeriesKey.INFLATION;
-import static com.example.timing.services.rates.SeriesKey.INTEREST;
+import static com.example.timing.services.rates.SeriesKey.*;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 
 @Service
@@ -26,6 +24,7 @@ public class RatesService {
     // https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY=143.FM.B.U2.EUR.4F.KR.MRR_FR.LEV
     // https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY=122.ICP.M.U2.N.000000.4.ANR
     // https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY=120.EXR.M.USD.EUR.SP00.E
+    // https://sdw.ecb.int/quickviewexport.do?type=csv&SERIES_KEY=EXR.D.USD.EUR.SP00.A
     private final String template_url;
 
     public RatesService(RatesServerConfiguration config) {
@@ -43,9 +42,15 @@ public class RatesService {
     }
 
     @Async
-    public CompletableFuture<Map<YearMonth, Double>> fetchExchangeRates() {
-        return completedFuture(parseRates(fetchRates(EXCHANGE)));
+    public CompletableFuture<Map<YearMonth, Double>> fetchExchangeRatesMonthly() {
+        return completedFuture(parseRates(fetchRates(EXCHANGE_MONTHLY)));
     }
+
+    @Async
+    public CompletableFuture<Map<LocalDate, Double>> fetchExchangeRatesDaily() {
+        return completedFuture(parseInterestRates(fetchRates(EXCHANGE_DAILY)));
+    }
+
 
     private String fetchRates(SeriesKey key) {
         return new RestTemplate().getForEntity(template_url, String.class, key.getKey()).getBody();

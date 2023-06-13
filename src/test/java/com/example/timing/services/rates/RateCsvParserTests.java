@@ -52,7 +52,7 @@ public class RateCsvParserTests {
         assertThat(result.get(YearMonth.of(1997, JANUARY))).isEqualTo(2.0);
     }
 
-    private String readFile(String fileName) throws IOException {
+    private static String readFile(String fileName) throws IOException {
         return copyToString(new ClassPathResource("data/" + fileName).getInputStream(), UTF_8);
     }
 }

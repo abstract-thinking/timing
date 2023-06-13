@@ -3,8 +3,7 @@ package com.example.timing.control.gi;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.time.Month;
-import java.time.YearMonth;
+import java.time.LocalDate;
 
 import static java.time.Month.MAY;
 import static java.time.Month.NOVEMBER;
@@ -21,23 +20,25 @@ public class SeasonIndicatorTests {
 
     @Test
     public void shouldBeAFriendlyMonth() {
-        PartialIndicatorResult result = seasonIndicator.indicate(YearMonth.of(2020, NOVEMBER));
+        LocalDate date = LocalDate.of(2020, NOVEMBER, 1);
+        PartialIndicatorResult result = seasonIndicator.indicate(date);
 
-        assertThat(result).isEqualTo(createPartialIndicatorResult(NOVEMBER, 1));
+        assertThat(result).isEqualTo(createPartialIndicatorResult(date, 1));
     }
 
     @Test
     public void shouldNotBeAFriendlyMonth() {
-        PartialIndicatorResult result = seasonIndicator.indicate(YearMonth.of(2020, MAY));
+        LocalDate date = LocalDate.of(2020, MAY, 1);
+        PartialIndicatorResult result = seasonIndicator.indicate(date);
 
-        assertThat(result).isEqualTo(createPartialIndicatorResult(MAY, 0));
+        assertThat(result).isEqualTo(createPartialIndicatorResult(date, 0));
     }
 
-    private PartialIndicatorResult createPartialIndicatorResult(Month month, int point) {
+    private static PartialIndicatorResult createPartialIndicatorResult(LocalDate date, int point) {
         return PartialIndicatorResult.builder()
-                .date(YearMonth.of(2020, month))
+                .date(date)
                 .rate(0.0)
-                .comparativeDate(YearMonth.of(2020, month))
+                .comparativeDate(date)
                 .comparativeRate(0.0)
                 .point(point)
                 .build();

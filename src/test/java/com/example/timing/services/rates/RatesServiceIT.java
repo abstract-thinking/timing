@@ -21,11 +21,19 @@ public class RatesServiceIT {
     private RatesService ratesService;
 
     @Test
-    public void shouldFetchExchangeRates() throws ExecutionException, InterruptedException {
-        Map<YearMonth, Double> exchangeRates = ratesService.fetchExchangeRates().get();
+    public void shouldFetchExchangeRatesMonthly() throws ExecutionException, InterruptedException {
+        Map<YearMonth, Double> exchangeRates = ratesService.fetchExchangeRatesMonthly().get();
 
         assertThat(exchangeRates).isNotEmpty().hasSizeGreaterThan(253);
         assertThat(exchangeRates.get(YearMonth.of(1999, JANUARY))).isEqualTo(1.1384);
+    }
+
+    @Test
+    public void shouldFetchExchangeRatesDaily() throws ExecutionException, InterruptedException {
+        Map<LocalDate, Double> exchangeRates = ratesService.fetchExchangeRatesDaily().get();
+
+        assertThat(exchangeRates).isNotEmpty().hasSizeGreaterThan(253);
+        assertThat(exchangeRates.get(LocalDate.of(1999, JANUARY, 4))).isEqualTo(1.1789);
     }
 
     @Test

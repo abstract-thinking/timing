@@ -1,5 +1,7 @@
 package com.example.timing.services.rates;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
@@ -10,6 +12,7 @@ import java.util.Scanner;
 
 import static java.time.format.DateTimeFormatter.ISO_DATE;
 
+@Slf4j
 public final class RateCsvParser {
 
     public static Map<LocalDate, Double> parseInterestRates(String data) {
@@ -24,26 +27,11 @@ public final class RateCsvParser {
             }
 
             String[] split = lineOfText.split(",");
-            interest.put(LocalDate.parse(split[0], ISO_DATE), Double.valueOf(split[1]));
-        }
-        scanner.close();
-
-        return interest;
-    }
-
-    public static Map<LocalDate, Double> parseInterestRates(String data, int index) {
-        Map<LocalDate, Double> interest = new HashMap<>();
-
-        Scanner scanner = new Scanner(data);
-        scanner.useDelimiter(",");
-        while (scanner.hasNext()) {
-            String lineOfText = scanner.nextLine();
-            if (!Character.isDigit(lineOfText.charAt(0))) {
-                continue;
+            try {
+                interest.put(LocalDate.parse(split[0], ISO_DATE), Double.valueOf(split[1]));
+            } catch (NumberFormatException nfe) {
+                log.warn("Can not parse: " + lineOfText);
             }
-
-            String[] split = lineOfText.split(",");
-            interest.put(YearMonth.parse(split[0]).atDay(1), Double.valueOf(split[index]));
         }
         scanner.close();
 
@@ -66,26 +54,6 @@ public final class RateCsvParser {
             result.put(
                     YearMonth.parse(split[0], DateTimeFormatter.ofPattern("yyyyMMM", Locale.ENGLISH)),
                     Double.valueOf(split[1]));
-        }
-        scanner.close();
-
-        return result;
-    }
-
-    public static Map<YearMonth, Double> parseRates(String data, int index) {
-        Map<YearMonth, Double> result = new HashMap<>();
-
-        Scanner scanner = new Scanner(data);
-        scanner.useDelimiter(",");
-
-        while (scanner.hasNext()) {
-            String lineOfText = scanner.nextLine();
-            if (!Character.isDigit(lineOfText.charAt(0))) {
-                continue;
-            }
-
-            String[] split = lineOfText.split(",");
-            result.put(YearMonth.parse(split[0]), Double.valueOf(split[index]));
         }
         scanner.close();
 
