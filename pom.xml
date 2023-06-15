@@ -19,8 +19,8 @@
 
 	<scm>
 		<url>https://github.com/abstract-thinking/timing</url>
-		<connection>scm:git:git://github.com/abstract-thinking/timing.git</connection>
-		<developerConnection>scm:git:git@github.com:abstract-thinking/timing.git</developerConnection>
+		<connection>scm:git:https://github.com/abstract-thinking/timing.git</connection>
+		<developerConnection>scm:git:https://github.com:abstract-thinking/timing.git</developerConnection>
 		<tag>timing-2.0.0</tag>
 	</scm>
 
