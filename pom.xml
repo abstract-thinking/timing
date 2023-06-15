@@ -5,7 +5,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.1.0</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>timing</artifactId>
@@ -20,8 +20,8 @@
 	<scm>
 		<url>https://github.com/abstract-thinking/timing</url>
 		<connection>scm:git:git://github.com/abstract-thinking/timing.git</connection>
-		<developerConnection>scm:git:https://github.com:abstract-thinking/timing.git</developerConnection>
-		<tag>2.0.0-SNAPSHOT</tag>
+		<developerConnection>scm:git:git@github.com:abstract-thinking/timing.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
