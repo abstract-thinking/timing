@@ -1,6 +1,7 @@
 package com.example.timing.services.rates;
 
 import com.example.timing.control.gi.domain.DailyUSDollarEuroInterestRate;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -9,13 +10,15 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import jakarta.validation.constraints.NotBlank;
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
-import static com.example.timing.services.rates.RateCsvParser.*;
+import static com.example.timing.services.rates.RateCsvParser.parseDailyInterestRates;
+import static com.example.timing.services.rates.RateCsvParser.parseInflationRates;
+import static com.example.timing.services.rates.RateCsvParser.parseInterestRates;
+import static com.example.timing.services.rates.RateCsvParser.parseMonthlyInterestRates;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 
 @Slf4j
@@ -65,7 +68,7 @@ public class RatesService {
     @Data
     @Configuration
     @ConfigurationProperties(prefix = "data")
-    static class RatesServerConfiguration {
+    public static class RatesServerConfiguration {
 
         @NotBlank(message = "data.template_url must be set in the configuration")
         private String templateUrl;
