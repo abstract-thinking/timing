@@ -1,5 +1,7 @@
 package com.example.timing.services.rates;
 
+import com.example.timing.control.gi.domain.DailyUSDollarEuroInterestRate;
+import com.example.timing.control.gi.domain.Status;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -30,10 +32,11 @@ public class RatesServiceIT {
 
     @Test
     public void shouldFetchExchangeRatesDaily() throws ExecutionException, InterruptedException {
-        Map<LocalDate, Double> exchangeRates = ratesService.fetchExchangeRatesDaily().get();
+        Map<LocalDate, DailyUSDollarEuroInterestRate> exchangeRates = ratesService.fetchExchangeRatesDaily().get();
 
         assertThat(exchangeRates).isNotEmpty().hasSizeGreaterThan(253);
-        assertThat(exchangeRates.get(LocalDate.of(1999, JANUARY, 4))).isEqualTo(1.1789);
+        assertThat(exchangeRates.get(LocalDate.of(1999, JANUARY, 4))).isEqualTo(
+                new DailyUSDollarEuroInterestRate(1.1789, Status.NORMAL));
     }
 
     @Test
@@ -62,7 +65,8 @@ public class RatesServiceIT {
 
     private RatesService.RatesServerConfiguration createConfigurationWithWrongServerUrl() {
         RatesService.RatesServerConfiguration configuration = new RatesService.RatesServerConfiguration();
-        configuration.setUrl("https://spiegel.de");
+        configuration.setTemplateUrl("https://data-api.ecb.europa.invalid/service/data/{path}?format=csvdata");
+        configuration.setFm("FM/B.U2.EUR.4F.KR.MRR_FR.LEV");
         return configuration;
     }
 }

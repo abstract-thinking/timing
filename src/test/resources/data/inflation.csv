@@ -1,282 +1,324 @@
-Data Source in SDW: null
-,ICP.M.U2.N.000000.4.ANR
-,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted"
-Collection:,Average of observations through period (A)
-Period\Unit:,[Percentage change ]
-2020Jan,1.4
-2019Dec,1.3
-2019Nov,1.0
-2019Oct,0.7
-2019Sep,0.8
-2019Aug,1.0
-2019Jul,1.0
-2019Jun,1.3
-2019May,1.2
-2019Apr,1.7
-2019Mar,1.4
-2019Feb,1.5
-2019Jan,1.4
-2018Dec,1.5
-2018Nov,1.9
-2018Oct,2.3
-2018Sep,2.1
-2018Aug,2.1
-2018Jul,2.2
-2018Jun,2.0
-2018May,2.0
-2018Apr,1.2
-2018Mar,1.4
-2018Feb,1.1
-2018Jan,1.3
-2017Dec,1.3
-2017Nov,1.5
-2017Oct,1.4
-2017Sep,1.6
-2017Aug,1.5
-2017Jul,1.3
-2017Jun,1.3
-2017May,1.4
-2017Apr,1.9
-2017Mar,1.5
-2017Feb,2.0
-2017Jan,1.7
-2016Dec,1.1
-2016Nov,0.6
-2016Oct,0.5
-2016Sep,0.4
-2016Aug,0.2
-2016Jul,0.2
-2016Jun,0.0
-2016May,-0.1
-2016Apr,-0.3
-2016Mar,0.0
-2016Feb,-0.1
-2016Jan,0.3
-2015Dec,0.3
-2015Nov,0.1
-2015Oct,0.4
-2015Sep,0.2
-2015Aug,0.4
-2015Jul,0.5
-2015Jun,0.5
-2015May,0.6
-2015Apr,0.2
-2015Mar,-0.1
-2015Feb,-0.3
-2015Jan,-0.6
-2014Dec,-0.2
-2014Nov,0.3
-2014Oct,0.4
-2014Sep,0.3
-2014Aug,0.4
-2014Jul,0.4
-2014Jun,0.5
-2014May,0.5
-2014Apr,0.7
-2014Mar,0.5
-2014Feb,0.7
-2014Jan,0.8
-2013Dec,0.8
-2013Nov,0.9
-2013Oct,0.7
-2013Sep,1.1
-2013Aug,1.3
-2013Jul,1.6
-2013Jun,1.6
-2013May,1.4
-2013Apr,1.2
-2013Mar,1.7
-2013Feb,1.9
-2013Jan,2.0
-2012Dec,2.2
-2012Nov,2.2
-2012Oct,2.5
-2012Sep,2.6
-2012Aug,2.6
-2012Jul,2.4
-2012Jun,2.4
-2012May,2.4
-2012Apr,2.6
-2012Mar,2.7
-2012Feb,2.7
-2012Jan,2.7
-2011Dec,2.8
-2011Nov,3.0
-2011Oct,3.0
-2011Sep,3.0
-2011Aug,2.5
-2011Jul,2.6
-2011Jun,2.7
-2011May,2.7
-2011Apr,2.8
-2011Mar,2.7
-2011Feb,2.4
-2011Jan,2.3
-2010Dec,2.2
-2010Nov,1.9
-2010Oct,1.9
-2010Sep,1.9
-2010Aug,1.6
-2010Jul,1.7
-2010Jun,1.5
-2010May,1.7
-2010Apr,1.6
-2010Mar,1.6
-2010Feb,0.8
-2010Jan,0.9
-2009Dec,0.9
-2009Nov,0.5
-2009Oct,-0.1
-2009Sep,-0.3
-2009Aug,-0.2
-2009Jul,-0.6
-2009Jun,-0.1
-2009May,0.0
-2009Apr,0.6
-2009Mar,0.6
-2009Feb,1.2
-2009Jan,1.1
-2008Dec,1.6
-2008Nov,2.1
-2008Oct,3.2
-2008Sep,3.6
-2008Aug,3.8
-2008Jul,4.1
-2008Jun,3.9
-2008May,3.7
-2008Apr,3.3
-2008Mar,3.6
-2008Feb,3.3
-2008Jan,3.2
-2007Dec,3.1
-2007Nov,3.1
-2007Oct,2.5
-2007Sep,2.1
-2007Aug,1.7
-2007Jul,1.8
-2007Jun,1.9
-2007May,1.9
-2007Apr,1.9
-2007Mar,1.9
-2007Feb,1.8
-2007Jan,1.8
-2006Dec,1.9
-2006Nov,1.8
-2006Oct,1.6
-2006Sep,1.8
-2006Aug,2.3
-2006Jul,2.4
-2006Jun,2.5
-2006May,2.5
-2006Apr,2.4
-2006Mar,2.2
-2006Feb,2.4
-2006Jan,2.4
-2005Dec,2.3
-2005Nov,2.3
-2005Oct,2.5
-2005Sep,2.6
-2005Aug,2.2
-2005Jul,2.1
-2005Jun,2.0
-2005May,2.0
-2005Apr,2.1
-2005Mar,2.2
-2005Feb,2.1
-2005Jan,1.9
-2004Dec,2.3
-2004Nov,2.2
-2004Oct,2.4
-2004Sep,2.1
-2004Aug,2.4
-2004Jul,2.3
-2004Jun,2.4
-2004May,2.5
-2004Apr,2.1
-2004Mar,1.7
-2004Feb,1.6
-2004Jan,1.8
-2003Dec,2.0
-2003Nov,2.2
-2003Oct,2.0
-2003Sep,2.1
-2003Aug,2.0
-2003Jul,1.9
-2003Jun,2.0
-2003May,1.8
-2003Apr,2.1
-2003Mar,2.4
-2003Feb,2.4
-2003Jan,2.1
-2002Dec,2.3
-2002Nov,2.3
-2002Oct,2.3
-2002Sep,2.1
-2002Aug,2.1
-2002Jul,2.0
-2002Jun,1.9
-2002May,2.1
-2002Apr,2.4
-2002Mar,2.5
-2002Feb,2.5
-2002Jan,2.6
-2001Dec,2.1
-2001Nov,2.0
-2001Oct,2.2
-2001Sep,2.2
-2001Aug,2.3
-2001Jul,2.5
-2001Jun,2.9
-2001May,3.1
-2001Apr,2.7
-2001Mar,2.2
-2001Feb,2.0
-2001Jan,2.0
-2000Dec,2.5
-2000Nov,2.5
-2000Oct,2.4
-2000Sep,2.4
-2000Aug,2.0
-2000Jul,2.1
-2000Jun,2.1
-2000May,1.8
-2000Apr,1.7
-2000Mar,2.0
-2000Feb,1.9
-2000Jan,1.9
-1999Dec,1.7
-1999Nov,1.5
-1999Oct,1.3
-1999Sep,1.2
-1999Aug,1.1
-1999Jul,1.0
-1999Jun,0.9
-1999May,0.9
-1999Apr,1.1
-1999Mar,0.9
-1999Feb,0.7
-1999Jan,0.8
-1998Dec,0.8
-1998Nov,0.8
-1998Oct,0.9
-1998Sep,1.0
-1998Aug,1.1
-1998Jul,1.3
-1998Jun,1.3
-1998May,1.3
-1998Apr,1.4
-1998Mar,1.1
-1998Feb,1.1
-1998Jan,1.1
-1997Dec,1.5
-1997Nov,1.6
-1997Oct,1.5
-1997Sep,1.6
-1997Aug,1.7
-1997Jul,1.5
-1997Jun,1.4
-1997May,1.4
-1997Apr,1.3
-1997Mar,1.6
-1997Feb,1.8
-1997Jan,2.0
+KEY,FREQ,REF_AREA,ADJUSTMENT,ICP_ITEM,STS_INSTITUTION,ICP_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DATA_COMP,DISS_ORG,DOM_SER_IDS,PUBL_ECB,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGENCY,TITLE,TITLE_COMPL,UNIT,UNIT_MULT
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-01,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-02,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-03,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-04,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-05,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-06,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-07,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-08,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-09,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-10,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-11,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1997-12,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-01,1.1,A,F,,Introduction of harmonised treatment of price reductions in Portugal as of Jan98,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-02,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-03,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-04,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-05,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-06,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-07,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-08,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-09,1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-10,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-11,0.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1998-12,0.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-01,0.8,A,F,,Introduction of harmonised treatment of price reductions in Luxembourg as of Jan99,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-02,0.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-03,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-04,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-05,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-06,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-07,1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-08,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-09,1.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-10,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-11,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,1999-12,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-01,1.9,A,F,,Introduction of harmonised treatment of price reductions in Belgium as of Jan00,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-02,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-03,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-04,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-05,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-06,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-07,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-08,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-09,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-10,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-11,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2000-12,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-01,2,A,F,,Introduction of harmonised treatment of price reductions in Spain and Italy as of Jan01,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-02,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-03,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-04,2.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-05,3.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-06,2.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-07,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-08,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-09,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-10,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-11,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2001-12,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-01,2.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-02,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-03,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-04,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-05,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-06,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-07,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-08,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-09,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-10,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-11,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2002-12,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-01,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-02,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-03,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-04,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-05,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-06,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-07,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-08,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-09,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-10,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-11,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2003-12,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-01,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-02,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-03,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-04,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-05,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-06,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-07,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-08,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-09,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-10,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-11,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2004-12,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-01,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-02,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-03,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-04,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-05,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-06,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-07,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-08,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-09,2.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-10,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-11,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2005-12,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-01,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-02,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-03,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-04,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-05,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-06,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-07,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-08,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-09,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-10,1.6,A,F,,Introduction of regulation (EC) No 701/2006 on the temporal coverage of price collection in the HICP in Italy. Collection after October 2006 took place between the 1st and the 21st of the reference month. Until September 2006 the collection period was between the 16th of the previous month and the 15th of the reference month.,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-11,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2006-12,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-01,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-02,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-03,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-04,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-05,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-06,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-07,1.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-08,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-09,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-10,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-11,3.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2007-12,3.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-01,3.2,A,F,,"Introduction of methodological changes to the German HICP including - new basket, updated of volume structure of the weights, introduction of explicit weights for outlets and implementation of regulation (EC) No 701/2006 on the temporal coverage of price collection in the HICP",P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-02,3.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-03,3.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-04,3.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-05,3.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-06,3.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-07,4.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-08,3.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-09,3.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-10,3.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-11,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2008-12,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-01,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-02,1.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-03,0.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-04,0.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-05,0,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-06,-0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-07,-0.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-08,-0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-09,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-10,-0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-11,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2009-12,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-01,0.9,A,F,,Implementation of HICP Regulation No. 33/2009 on the treatment of seasonal products in the Spanish HICP. Also reallocation of rented holiday apartments from COICOP accomodation services (11.2.0) to actual rentals (04.1.1) in the Spanish HICP.  These changes have a distorting impact on the annual rates of change in 2010.  See Box 3 in the April 2011 ECB Monthly Bulletin for details.,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-02,0.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-03,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-04,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-05,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-06,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-07,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-08,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-09,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-10,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-11,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2010-12,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-01,2.3,A,F,,"Implementation of HICP Regulation No. 33/2009 on the treatment of seasonal products in the HICPs of DE, EE, GR, FR, IT, CY, LU, MT, PT, SI, SK. The Regulation had particularly large impacts on clothing and footwear and to a lesser extent fruit and vegetables. In addition, NL implemented a new methodology for package holidays and air transport. These changes have a distorting impact on the annual rates of change in 2011.  See Box 3 in the April 2011 ECB Monthly Bulletin for details.",P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-02,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-03,2.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-04,2.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-05,2.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-06,2.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-07,2.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-08,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-09,3,A,F,,Implementation of HICP Regulation No. 33/2009 on the treatment of seasonal products in the Austrian HICP.  See Box 3 in the April 2011 ECB Monthly Bulletin for details.,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-10,3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-11,3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2011-12,2.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-01,2.7,A,F,,"Implementation of HICP Regulation No. 114/2010 on the quality of HICP weights in the HICPs of DE, IE, CY, LU, MT, AT, FI.  See Box 3 in the April 2012 ECB Monthly Bulletin for details.",P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-02,2.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-03,2.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-04,2.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-05,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-06,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-07,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-08,2.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-09,2.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-10,2.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-11,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2012-12,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-01,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-02,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-03,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-04,1.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-05,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-06,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-07,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-08,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-09,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-10,0.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-11,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2013-12,0.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-01,0.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-02,0.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-03,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-04,0.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-05,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-06,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-07,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-08,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-09,0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-10,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-11,0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2014-12,-0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-01,-0.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-02,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-03,-0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-04,0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-05,0.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-06,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-07,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-08,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-09,0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-10,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-11,0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2015-12,0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-01,0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-02,-0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-03,0,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-04,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-05,-0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-06,0,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-07,0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-08,0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-09,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-10,0.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-11,0.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2016-12,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-01,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-02,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-03,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-04,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-05,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-06,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-07,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-08,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-09,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-10,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-11,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2017-12,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-01,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-02,1.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-03,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-04,1.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-05,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-06,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-07,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-08,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-09,2.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-10,2.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-11,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2018-12,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-01,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-02,1.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-03,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-04,1.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-05,1.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-06,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-07,1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-08,1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-09,0.8,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-10,0.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-11,1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2019-12,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-01,1.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-02,1.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-03,0.7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-04,0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-05,0.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-06,0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-07,0.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-08,-0.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-09,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-10,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-11,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2020-12,-0.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-01,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-02,0.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-03,1.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-04,1.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-05,2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-06,1.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-07,2.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-08,3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-09,3.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-10,4.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-11,4.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2021-12,5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-01,5.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-02,5.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-03,7.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-04,7.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-05,8.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-06,8.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-07,8.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-08,9.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-09,9.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-10,10.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-11,10.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2022-12,9.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-01,8.6,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-02,8.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-03,6.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-04,7,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-05,6.1,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-06,5.5,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-07,5.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-08,5.2,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-09,4.3,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-10,2.9,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0
+ICP.M.U2.N.000000.4.ANR,M,U2,N,000000,4,ANR,2023-11,2.4,A,F,,,P1M,,A,,,,ICPT.M.VAL.HICP.RCH_A.EA.00.M,,,,,,,1,,HICP - Overall index,"Euro area (changing composition) - HICP - Overall index, Annual rate of change, Eurostat, Neither seasonally nor working day adjusted",PCCH,0

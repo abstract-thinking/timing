@@ -23,7 +23,7 @@ public class RateCsvParserTests {
         Map<LocalDate, Double> result = RateCsvParser.parseInterestRates(content);
 
         assertThat(result).isNotEmpty();
-        assertThat(result).hasSize(28);
+        assertThat(result).hasSize(38);
         assertThat(result.get(LocalDate.of(2019, SEPTEMBER, 18))).isEqualTo(0.00);
         assertThat(result.get(LocalDate.of(1999, JANUARY, 1))).isEqualTo(3.00);
     }
@@ -32,10 +32,10 @@ public class RateCsvParserTests {
     public void shouldParseExchange() throws IOException {
         String content = readFile("exchange.csv");
 
-        Map<YearMonth, Double> result = RateCsvParser.parseRates(content);
+        Map<YearMonth, Double> result = RateCsvParser.parseMonthlyExchangeRates(content);
 
         assertThat(result).isNotEmpty();
-        assertThat(result).hasSize(253);
+        assertThat(result).hasSize(300);
         assertThat(result.get(YearMonth.of(2020, JANUARY))).isEqualTo(1.1052);
         assertThat(result.get(YearMonth.of(1999, JANUARY))).isEqualTo(1.1384);
     }
@@ -44,10 +44,10 @@ public class RateCsvParserTests {
     public void shouldParseInflation() throws IOException {
         String content = readFile("inflation.csv");
 
-        Map<YearMonth, Double> result = RateCsvParser.parseRates(content);
+        Map<YearMonth, Double> result = RateCsvParser.parseInflationRates(content);
 
         assertThat(result).isNotEmpty();
-        assertThat(result).hasSize(277);
+        assertThat(result).hasSize(323);
         assertThat(result.get(YearMonth.of(2020, JANUARY))).isEqualTo(1.4);
         assertThat(result.get(YearMonth.of(1997, JANUARY))).isEqualTo(2.0);
     }

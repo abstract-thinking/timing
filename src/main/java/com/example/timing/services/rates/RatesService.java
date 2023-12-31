@@ -15,10 +15,10 @@ import java.time.YearMonth;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
-import static com.example.timing.services.rates.RateCsvParser.parseDailyInterestRates;
+import static com.example.timing.services.rates.RateCsvParser.parseDailyExchangeRates;
 import static com.example.timing.services.rates.RateCsvParser.parseInflationRates;
 import static com.example.timing.services.rates.RateCsvParser.parseInterestRates;
-import static com.example.timing.services.rates.RateCsvParser.parseMonthlyInterestRates;
+import static com.example.timing.services.rates.RateCsvParser.parseMonthlyExchangeRates;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 
 @Slf4j
@@ -52,12 +52,12 @@ public class RatesService {
 
     @Async
     public CompletableFuture<Map<YearMonth, Double>> fetchExchangeRatesMonthly() {
-        return completedFuture(parseMonthlyInterestRates(fetchRates(configuration.getExrMonthly())));
+        return completedFuture(parseMonthlyExchangeRates(fetchRates(configuration.getExrMonthly())));
     }
 
     @Async
     public CompletableFuture<Map<LocalDate, DailyUSDollarEuroInterestRate>> fetchExchangeRatesDaily() {
-        return completedFuture(parseDailyInterestRates(fetchRates(configuration.getExrDaily())));
+        return completedFuture(parseDailyExchangeRates(fetchRates(configuration.getExrDaily())));
     }
 
     private String fetchRates(String path) {

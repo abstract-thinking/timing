@@ -1,258 +1,301 @@
-Data Source in SDW: null
-,EXR.M.USD.EUR.SP00.E
-,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)"
-Collection:,End of period (E)
-Period\Unit:,[US dollar ]
-2020Jan,1.1052
-2019Dec,1.1234
-2019Nov,1.0982
-2019Oct,1.1154
-2019Sep,1.0889
-2019Aug,1.1036
-2019Jul,1.1151
-2019Jun,1.1380
-2019May,1.1151
-2019Apr,1.1218
-2019Mar,1.1235
-2019Feb,1.1416
-2019Jan,1.1488
-2018Dec,1.1450
-2018Nov,1.1359
-2018Oct,1.1318
-2018Sep,1.1576
-2018Aug,1.1651
-2018Jul,1.1736
-2018Jun,1.1658
-2018May,1.1699
-2018Apr,1.2079
-2018Mar,1.2321
-2018Feb,1.2214
-2018Jan,1.2457
-2017Dec,1.1993
-2017Nov,1.1849
-2017Oct,1.1638
-2017Sep,1.1806
-2017Aug,1.1825
-2017Jul,1.1727
-2017Jun,1.1412
-2017May,1.1221
-2017Apr,1.0930
-2017Mar,1.0691
-2017Feb,1.0597
-2017Jan,1.0755
-2016Dec,1.0541
-2016Nov,1.0635
-2016Oct,1.0946
-2016Sep,1.1161
-2016Aug,1.1132
-2016Jul,1.1113
-2016Jun,1.1102
-2016May,1.1154
-2016Apr,1.1403
-2016Mar,1.1385
-2016Feb,1.0888
-2016Jan,1.0920
-2015Dec,1.0887
-2015Nov,1.0579
-2015Oct,1.1017
-2015Sep,1.1203
-2015Aug,1.1215
-2015Jul,1.0967
-2015Jun,1.1189
-2015May,1.0970
-2015Apr,1.1215
-2015Mar,1.0759
-2015Feb,1.1240
-2015Jan,1.1305
-2014Dec,1.2141
-2014Nov,1.2483
-2014Oct,1.2524
-2014Sep,1.2583
-2014Aug,1.3188
-2014Jul,1.3379
-2014Jun,1.3658
-2014May,1.3607
-2014Apr,1.3850
-2014Mar,1.3788
-2014Feb,1.3813
-2014Jan,1.3516
-2013Dec,1.3791
-2013Nov,1.3611
-2013Oct,1.3641
-2013Sep,1.3505
-2013Aug,1.3235
-2013Jul,1.3275
-2013Jun,1.3080
-2013May,1.3006
-2013Apr,1.3072
-2013Mar,1.2805
-2013Feb,1.3129
-2013Jan,1.3550
-2012Dec,1.3194
-2012Nov,1.2986
-2012Oct,1.2993
-2012Sep,1.2930
-2012Aug,1.2611
-2012Jul,1.2284
-2012Jun,1.2590
-2012May,1.2403
-2012Apr,1.3214
-2012Mar,1.3356
-2012Feb,1.3443
-2012Jan,1.3176
-2011Dec,1.2939
-2011Nov,1.3418
-2011Oct,1.4001
-2011Sep,1.3503
-2011Aug,1.4450
-2011Jul,1.4260
-2011Jun,1.4453
-2011May,1.4385
-2011Apr,1.4860
-2011Mar,1.4207
-2011Feb,1.3834
-2011Jan,1.3692
-2010Dec,1.3362
-2010Nov,1.2998
-2010Oct,1.3857
-2010Sep,1.3648
-2010Aug,1.2680
-2010Jul,1.3028
-2010Jun,1.2271
-2010May,1.2307
-2010Apr,1.3315
-2010Mar,1.3479
-2010Feb,1.3570
-2010Jan,1.3966
-2009Dec,1.4406
-2009Nov,1.5023
-2009Oct,1.4800
-2009Sep,1.4643
-2009Aug,1.4272
-2009Jul,1.4138
-2009Jun,1.4134
-2009May,1.4098
-2009Apr,1.3275
-2009Mar,1.3308
-2009Feb,1.2644
-2009Jan,1.2816
-2008Dec,1.3917
-2008Nov,1.2727
-2008Oct,1.2757
-2008Sep,1.4303
-2008Aug,1.4735
-2008Jul,1.5611
-2008Jun,1.5764
-2008May,1.5508
-2008Apr,1.5540
-2008Mar,1.5812
-2008Feb,1.5167
-2008Jan,1.4870
-2007Dec,1.4721
-2007Nov,1.4761
-2007Oct,1.4447
-2007Sep,1.4179
-2007Aug,1.3705
-2007Jul,1.3707
-2007Jun,1.3505
-2007May,1.3453
-2007Apr,1.3605
-2007Mar,1.3318
-2007Feb,1.3211
-2007Jan,1.2954
-2006Dec,1.3170
-2006Nov,1.3200
-2006Oct,1.2696
-2006Sep,1.2660
-2006Aug,1.2851
-2006Jul,1.2767
-2006Jun,1.2713
-2006May,1.2868
-2006Apr,1.2537
-2006Mar,1.2104
-2006Feb,1.1875
-2006Jan,1.2118
-2005Dec,1.1797
-2005Nov,1.1769
-2005Oct,1.2023
-2005Sep,1.2042
-2005Aug,1.2198
-2005Jul,1.2093
-2005Jun,1.2092
-2005May,1.2331
-2005Apr,1.2957
-2005Mar,1.2964
-2005Feb,1.3257
-2005Jan,1.3035
-2004Dec,1.3621
-2004Nov,1.3295
-2004Oct,1.2737
-2004Sep,1.2409
-2004Aug,1.2111
-2004Jul,1.2039
-2004Jun,1.2155
-2004May,1.2198
-2004Apr,1.1947
-2004Mar,1.2224
-2004Feb,1.2418
-2004Jan,1.2384
-2003Dec,1.2630
-2003Nov,1.1994
-2003Oct,1.1622
-2003Sep,1.1652
-2003Aug,1.0927
-2003Jul,1.1318
-2003Jun,1.1427
-2003May,1.1822
-2003Apr,1.1131
-2003Mar,1.0895
-2003Feb,1.0782
-2003Jan,1.0816
-2002Dec,1.0487
-2002Nov,0.9927
-2002Oct,0.9864
-2002Sep,0.9860
-2002Aug,0.9833
-2002Jul,0.9783
-2002Jun,0.9975
-2002May,0.9387
-2002Apr,0.9008
-2002Mar,0.8724
-2002Feb,0.8651
-2002Jan,0.8637
-2001Dec,0.8813
-2001Nov,0.8898
-2001Oct,0.9042
-2001Sep,0.9131
-2001Aug,0.9158
-2001Jul,0.8755
-2001Jun,0.8480
-2001May,0.8480
-2001Apr,0.8876
-2001Mar,0.8832
-2001Feb,0.9248
-2001Jan,0.9293
-2000Dec,0.9305
-2000Nov,0.8684
-2000Oct,0.8417
-2000Sep,0.8765
-2000Aug,0.8906
-2000Jul,0.9243
-2000Jun,0.9556
-2000May,0.9303
-2000Apr,0.9085
-2000Mar,0.9553
-2000Feb,0.9714
-2000Jan,0.9791
-1999Dec,1.0046
-1999Nov,1.0097
-1999Oct,1.0453
-1999Sep,1.0665
-1999Aug,1.0573
-1999Jul,1.0694
-1999Jun,1.0328
-1999May,1.0456
-1999Apr,1.0597
-1999Mar,1.0742
-1999Feb,1.1018
-1999Jan,1.1384
+KEY,FREQ,CURRENCY,CURRENCY_DENOM,EXR_TYPE,EXR_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_ECB,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,NAT_TITLE,SOURCE_AGENCY,SOURCE_PUB,TITLE,TITLE_COMPL,UNIT,UNIT_MULT
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-01,1.1384,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-02,1.1018,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-03,1.0742,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-04,1.0597,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-05,1.0456,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-06,1.0328,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-07,1.0694,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-08,1.0573,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-09,1.0665,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-10,1.0453,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-11,1.0097,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,1999-12,1.0046,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-01,0.9791,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-02,0.9714,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-03,0.9553,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-04,0.9085,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-05,0.9303,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-06,0.9556,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-07,0.9243,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-08,0.8906,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-09,0.8765,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-10,0.8417,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-11,0.8684,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2000-12,0.9305,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-01,0.9293,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-02,0.9248,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-03,0.8832,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-04,0.8876,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-05,0.848,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-06,0.848,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-07,0.8755,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-08,0.9158,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-09,0.9131,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-10,0.9042,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-11,0.8898,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2001-12,0.8813,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-01,0.8637,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-02,0.8651,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-03,0.8724,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-04,0.9008,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-05,0.9387,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-06,0.9975,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-07,0.9783,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-08,0.9833,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-09,0.986,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-10,0.9864,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-11,0.9927,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2002-12,1.0487,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-01,1.0816,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-02,1.0782,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-03,1.0895,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-04,1.1131,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-05,1.1822,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-06,1.1427,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-07,1.1318,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-08,1.0927,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-09,1.1652,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-10,1.1622,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-11,1.1994,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2003-12,1.263,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-01,1.2384,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-02,1.2418,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-03,1.2224,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-04,1.1947,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-05,1.2198,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-06,1.2155,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-07,1.2039,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-08,1.2111,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-09,1.2409,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-10,1.2737,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-11,1.3295,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2004-12,1.3621,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-01,1.3035,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-02,1.3257,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-03,1.2964,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-04,1.2957,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-05,1.2331,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-06,1.2092,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-07,1.2093,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-08,1.2198,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-09,1.2042,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-10,1.2023,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-11,1.1769,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2005-12,1.1797,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-01,1.2118,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-02,1.1875,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-03,1.2104,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-04,1.2537,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-05,1.2868,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-06,1.2713,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-07,1.2767,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-08,1.2851,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-09,1.266,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-10,1.2696,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-11,1.32,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2006-12,1.317,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-01,1.2954,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-02,1.3211,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-03,1.3318,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-04,1.3605,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-05,1.3453,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-06,1.3505,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-07,1.3707,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-08,1.3705,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-09,1.4179,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-10,1.4447,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-11,1.4761,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2007-12,1.4721,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-01,1.487,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-02,1.5167,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-03,1.5812,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-04,1.554,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-05,1.5508,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-06,1.5764,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-07,1.5611,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-08,1.4735,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-09,1.4303,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-10,1.2757,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-11,1.2727,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2008-12,1.3917,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-01,1.2816,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-02,1.2644,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-03,1.3308,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-04,1.3275,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-05,1.4098,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-06,1.4134,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-07,1.4138,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-08,1.4272,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-09,1.4643,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-10,1.48,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-11,1.5023,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2009-12,1.4406,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-01,1.3966,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-02,1.357,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-03,1.3479,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-04,1.3315,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-05,1.2307,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-06,1.2271,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-07,1.3028,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-08,1.268,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-09,1.3648,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-10,1.3857,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-11,1.2998,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2010-12,1.3362,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-01,1.3692,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-02,1.3834,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-03,1.4207,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-04,1.486,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-05,1.4385,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-06,1.4453,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-07,1.426,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-08,1.445,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-09,1.3503,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-10,1.4001,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-11,1.3418,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2011-12,1.2939,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-01,1.3176,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-02,1.3443,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-03,1.3356,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-04,1.3214,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-05,1.2403,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-06,1.259,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-07,1.2284,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-08,1.2611,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-09,1.293,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-10,1.2993,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-11,1.2986,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2012-12,1.3194,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-01,1.355,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-02,1.3129,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-03,1.2805,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-04,1.3072,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-05,1.3006,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-06,1.308,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-07,1.3275,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-08,1.3235,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-09,1.3505,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-10,1.3641,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-11,1.3611,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2013-12,1.3791,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-01,1.3516,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-02,1.3813,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-03,1.3788,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-04,1.385,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-05,1.3607,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-06,1.3658,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-07,1.3379,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-08,1.3188,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-09,1.2583,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-10,1.2524,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-11,1.2483,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2014-12,1.2141,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-01,1.1305,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-02,1.124,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-03,1.0759,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-04,1.1215,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-05,1.097,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-06,1.1189,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-07,1.0967,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-08,1.1215,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-09,1.1203,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-10,1.1017,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-11,1.0579,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2015-12,1.0887,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-01,1.092,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-02,1.0888,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-03,1.1385,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-04,1.1403,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-05,1.1154,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-06,1.1102,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-07,1.1113,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-08,1.1132,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-09,1.1161,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-10,1.0946,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-11,1.0635,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2016-12,1.0541,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-01,1.0755,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-02,1.0597,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-03,1.0691,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-04,1.093,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-05,1.1221,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-06,1.1412,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-07,1.1727,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-08,1.1825,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-09,1.1806,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-10,1.1638,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-11,1.1849,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2017-12,1.1993,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-01,1.2457,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-02,1.2214,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-03,1.2321,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-04,1.2079,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-05,1.1699,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-06,1.1658,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-07,1.1736,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-08,1.1651,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-09,1.1576,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-10,1.1318,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-11,1.1359,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2018-12,1.145,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-01,1.1488,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-02,1.1416,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-03,1.1235,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-04,1.1218,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-05,1.1151,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-06,1.138,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-07,1.1151,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-08,1.1036,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-09,1.0889,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-10,1.1154,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-11,1.0982,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2019-12,1.1234,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-01,1.1052,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-02,1.0977,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-03,1.0956,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-04,1.0876,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-05,1.1136,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-06,1.1198,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-07,1.1848,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-08,1.194,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-09,1.1708,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-10,1.1698,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-11,1.198,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2020-12,1.2271,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-01,1.2136,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-02,1.2121,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-03,1.1725,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-04,1.2082,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-05,1.2201,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-06,1.1884,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-07,1.1891,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-08,1.1834,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-09,1.1579,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-10,1.1645,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-11,1.1363,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2021-12,1.1326,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-01,1.1156,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-02,1.1199,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-03,1.1101,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-04,1.054,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-05,1.0713,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-06,1.0387,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-07,1.0198,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-08,1,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-09,0.9748,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-10,0.9914,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-11,1.0376,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2022-12,1.0666,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-01,1.0833,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-02,1.0619,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-03,1.0875,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-04,1.0981,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-05,1.0683,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-06,1.0866,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-07,1.1023,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-08,1.0868,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-09,1.0594,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-10,1.0619,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-11,1.0931,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
+EXR.M.USD.EUR.SP00.E,M,USD,EUR,SP00,E,2023-12,1.105,A,F,,,P1M,,E,,,,,,,,,,4,,4F0,,US dollar/Euro,"ECB reference exchange rate, US dollar/Euro, 2:15 pm (C.E.T.)",USD,0
