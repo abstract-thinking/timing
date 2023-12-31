@@ -44,7 +44,7 @@
     <tr align="center"
         th:each="result: ${results}"
         th:style="${result.shouldInvest() ? 'background-color: GreenYellow' : 'background-color: Tomato'}">
-        <td th:text="${result.date}"></td>
+        <td th:text="${#temporals.format(result.date, 'dd.MM.yyyy')}"></td>
         <td th:text="${result.seasonPoint}"></td>
         <td th:text="${#numbers.formatDecimal(result.interestRate, 1, 2, 'COMMA')}"></td>
         <td th:text="${result.interestPoint} ? 'Decrease' : 'Increase'"></td>

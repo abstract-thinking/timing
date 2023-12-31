@@ -1,6 +1,7 @@
 package com.example.timing.control.gi;
 
 import com.example.timing.boundary.gi.api.IndicatorResult;
+import com.example.timing.control.gi.domain.DailyUSDollarEuroInterestRate;
 import com.example.timing.services.rates.RatesService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -76,7 +77,7 @@ public class GiCalculator {
 
     public List<IndicatorResult> calculateWeekly() {
         CompletableFuture<Map<LocalDate, Double>> interestRatesFuture = ratesService.fetchInterestRates();
-        CompletableFuture<Map<LocalDate, Double>> exchangeRatesFuture = ratesService.fetchExchangeRatesDaily();
+        CompletableFuture<Map<LocalDate, DailyUSDollarEuroInterestRate>> exchangeRatesFuture = ratesService.fetchExchangeRatesDaily();
         CompletableFuture<Map<YearMonth, Double>> inflationRatesFuture = ratesService.fetchInflationRates();
 
         SeasonIndicator seasonIndicator = new SeasonIndicator();
@@ -100,7 +101,6 @@ public class GiCalculator {
         IndicatorResult previousResult = null;
         List<IndicatorResult> results = new ArrayList<>();
         for (LocalDate date = startDate; date.isBefore(endDate) || date.isEqual(endDate); date = date.plusWeeks(1)) {
-            log.info("Using date: " + date);
             PartialIndicatorResult seasonResult = seasonIndicator.indicate(date);
             PartialIndicatorResult interestResult = interestRatesIndicator.indicate(date);
             PartialIndicatorResult exchangeResult = exchangeRatesIndicator.indicate(date);
